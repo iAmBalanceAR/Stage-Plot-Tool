@@ -1,0 +1,13 @@
+{
+  "bands": [
+    {
+      "id": "example-band-slot",
+      "orgId": "example-org",
+      "createdByUserId": "example-venue-owner",
+      "bandName": "Awesome Band",
+      "linkToken": "k3x9qm2p",
+      "showDate": "2026-10-03",
+      "createdAt": "2026-09-21T00:00:00.000Z"
+    }
+  ]
+}

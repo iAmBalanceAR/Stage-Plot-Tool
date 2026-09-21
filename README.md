@@ -1,36 +1,188 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# StageCraft
 
-## Getting Started
+StageCraft is a local-first stage plot builder for bands. A venue signs in, creates a unique link for each act, and texts that link. The band opens it, lays out the stage, fills the input list, and sends a frozen snapshot back. StageCraft also exports a multi-page PDF technical packet, a PNG plot, CSV, and an editable project file.
 
-First, run the development server:
+This is not a cloud SaaS. Venue logins live in a JSON file on the machine that runs the app. Band slots live in a second JSON file. Working plots autosave in the current browser. Pick a host that keeps those files on disk.
+
+User-facing instructions (no setup jargon) are in [USER-GUIDE.md](./USER-GUIDE.md).
+
+## What you get
+
+- Drag, resize, rotate, duplicate, label, and arrow-key nudge stage objects
+- To-scale equipment drawings (kit, amps, wedges, stands) instead of generic boxes
+- Venue owner accounts plus unique band links (`/b/……`)
+- Band links that stop working the day after the show date
+- Plot library (per signed-in user, this browser)
+- Venue inbox of frozen submissions, with a red unread count
+- Templates: full band, power trio, acoustic duo, blank
+- Input/patch list with mic, DI, stand, phantom, performer, destination
+- Monitor mixes and production notes
+- PDF technical packet, PNG plot, CSV input list, StageCraft JSON backup
+- Light/dark theme, desktop and phone layouts
+
+## Stack
+
+- Next.js 15 (App Router, Turbopack) and React 19
+- TypeScript, Tailwind CSS 4, Zustand, Zod
+- jsPDF and html-to-image for export
+- PNPM (not npm)
+
+There is no required database. A `supabase/migrations` SQL file exists for a possible future hosted backend. You can ignore it.
+
+## Requirements
+
+- Node.js 20 or newer
+- PNPM 9 or newer (`corepack enable` is the usual way to get it)
+- A machine that can keep writing to `data/accounts.json` and `data/bands.json` (a PC, VPS, or similar). Ephemeral hosts such as default Vercel/Netlify deploys will lose band links and account edits.
+
+## Install
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone <your-repo-url>
+cd Stage-Plot-Tool
+corepack enable
+pnpm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Create the venue login file
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Venue accounts are **not** created in the UI. You edit a JSON file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+cp data/accounts.example.json data/accounts.json
+```
 
-## Learn More
+On Windows PowerShell:
 
-To learn more about Next.js, take a look at the following resources:
+```powershell
+Copy-Item data\accounts.example.json data\accounts.json
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Open `data/accounts.json` and change at least:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+| Field | Where | What to put |
+| --- | --- | --- |
+| `email` | `users[]` | The address the venue types at sign-in |
+| `password` | `users[]` | Plain text. This app is intentionally simple, not a bank. |
+| `displayName` | `users[]` | Name shown in the header |
+| `accountType` | `users[]` | `venue_owner` |
+| `name` | `organizations[]` | Venue or room name |
+| `inviteCode` | `organizations[]` | Short code if staff will join later (letters/numbers) |
+| `ownerId` | `organizations[]` | Must match that user’s `id` |
+| `orgId` / `userId` | `memberships[]` | Must point at the same org and user |
+| `role` | `memberships[]` | `owner` for the venue login |
 
-## Deploy on Vercel
+Keep the example `id` values if you only have one venue. For a second venue, give the new user, organization, and membership **new unique ids** (any UUID is fine):
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```bash
+node -e "console.log(crypto.randomUUID())"
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+`data/accounts.json` is gitignored. Do not commit live passwords.
+
+Staff: either add another user with `"accountType": "staff"` and a membership row, or sign them in as a venue account and use **Join** with the room’s invite code.
+
+## Band data file
+
+You do **not** create `data/bands.json` by hand. After a venue is signed in, they use **Band links** in the app. That writes `data/bands.json` (also gitignored). `data/bands.example.json` is only a shape reference.
+
+Each band record has a `linkToken`. The public URL is:
+
+```text
+https://your-domain.example/b/<linkToken>
+```
+
+Locally that is `http://localhost:3000/b/<linkToken>`. The link works through the show date and is refused the next calendar day. The venue can also turn a link off early.
+
+## Run in development
+
+```bash
+pnpm dev
+```
+
+Open `http://localhost:3000`.
+
+- Venue: sign in with the email/password from `data/accounts.json`
+- Band: do **not** use that form. Open the unique `/b/…` link
+
+## Run in production
+
+On the same kind of always-on machine:
+
+```bash
+pnpm build
+pnpm start
+```
+
+`pnpm start` listens on port 3000. Put a reverse proxy (Caddy, nginx, IIS) in front if you want HTTPS and a real hostname. Band texts will use whatever origin the venue’s browser shows when they copy the link, so the public URL must be the one acts can actually open.
+
+Optional environment variables (defaults shown):
+
+| Variable | Default | Purpose |
+| --- | --- | --- |
+| `STAGECRAFT_ACCOUNTS_FILE` | `<cwd>/data/accounts.json` | Override venue login file path |
+| `STAGECRAFT_BANDS_FILE` | `<cwd>/data/bands.json` | Override band-slot file path |
+| `PORT` | `3000` | Next.js listen port when using `pnpm start` |
+
+The process needs permission to create and update those JSON files.
+
+## How data is stored
+
+| Data | Where | Notes |
+| --- | --- | --- |
+| Venue logins, rooms, memberships | `data/accounts.json` | Edited by you; some venue UI actions also write it |
+| Band slots and link tokens | `data/bands.json` | Written by the venue **Band links** UI |
+| Working plots, library, inbox snapshots | Browser `localStorage` | Tied to that browser on that device |
+| PDF / PNG / CSV / `.stagecraft.json` / `.submission.json` | Downloaded files | The hand-off when people are not on the same computer |
+
+If the band builds a plot on a phone and later opens the same link on a laptop, they will **not** see the phone’s draft unless they exported the editable project and imported it. If the venue and the band do not share a browser, the venue should import the downloaded `.submission.json` into **Inbox**.
+
+Passwords are stored in plain text on purpose. Treat the `data/` folder like a shared office password list: limit who can read the server disk.
+
+## Daily venue workflow (short)
+
+1. Sign in at the site root.
+2. **Band links** → band name + show date → **Create band link**.
+3. Copy the URL and text/email it.
+4. When the act is done, **Inbox** shows a red count until you open the snapshot.
+5. Export PDF/PNG from the opened snapshot if you want paper or a graphic.
+
+Details for venue staff and bands: [USER-GUIDE.md](./USER-GUIDE.md).
+
+## Scripts
+
+```bash
+pnpm dev            # development server
+pnpm build          # production build
+pnpm start          # serve the production build
+pnpm lint
+pnpm typecheck
+pnpm test
+pnpm test:coverage
+```
+
+## Project layout
+
+```text
+data/                 live JSON stores (gitignored) + *.example.json
+src/app/              App Router pages and /api/accounts, /api/bands
+src/app/b/[token]     unique band link
+src/components/       editor, canvas, menus, login
+src/data/             equipment catalog and templates
+src/lib/              accounts/bands files, export, workspace rules
+src/store/            Zustand stores
+src/types/            StageProject and account types
+```
+
+## Keyboard
+
+| Key | Action |
+| --- | --- |
+| Drag | Move an object |
+| Arrow keys | Nudge the selected object |
+| Delete / Backspace | Remove the selected object |
+| Ctrl/Cmd+Z | Undo |
+| Ctrl/Cmd+Y or Shift+Ctrl/Cmd+Z | Redo |
+| Ctrl/Cmd+S | Download the editable project file |
+
+Audience is drawn at the **bottom** of the stage. Stage left is the band’s left when facing the crowd.

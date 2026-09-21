@@ -1,0 +1,28 @@
+{
+  "users": [
+    {
+      "id": "example-venue-owner",
+      "email": "venue@example.com",
+      "password": "change-me-please",
+      "displayName": "River House",
+      "accountType": "venue_owner",
+      "createdAt": "2026-09-21T00:00:00.000Z"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "example-org",
+      "name": "River House",
+      "inviteCode": "RIVER1",
+      "ownerId": "example-venue-owner",
+      "createdAt": "2026-09-21T00:00:00.000Z"
+    }
+  ],
+  "memberships": [
+    {
+      "orgId": "example-org",
+      "userId": "example-venue-owner",
+      "role": "owner"
+    }
+  ]
+}

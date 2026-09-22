@@ -1,0 +1,28 @@
+{
+  "users": [
+    {
+      "id": "a7c3e2f1-9b84-4d12-8e6a-1f0c5b7d9a22",
+      "email": "test@test.com",
+      "password": "testpass",
+      "displayName": "Test Venue",
+      "accountType": "venue_owner",
+      "createdAt": "2026-09-21T00:00:00.000Z"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "b2d4f6a8-1c3e-4f70-9a1b-2c3d4e5f6a7b",
+      "name": "Test Venue",
+      "inviteCode": "TEST01",
+      "ownerId": "a7c3e2f1-9b84-4d12-8e6a-1f0c5b7d9a22",
+      "createdAt": "2026-09-21T00:00:00.000Z"
+    }
+  ],
+  "memberships": [
+    {
+      "orgId": "b2d4f6a8-1c3e-4f70-9a1b-2c3d4e5f6a7b",
+      "userId": "a7c3e2f1-9b84-4d12-8e6a-1f0c5b7d9a22",
+      "role": "owner"
+    }
+  ]
+}

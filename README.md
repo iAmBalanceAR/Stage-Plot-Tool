@@ -46,17 +46,12 @@ pnpm install
 
 ## Create the venue login file
 
-Venue accounts are **not** created in the UI. You edit a JSON file.
+Venue accounts are **not** created in the UI. You edit `data/accounts.json`. That file ships in the repo with a starter venue login:
 
-```bash
-cp data/accounts.example.json data/accounts.json
-```
+- Email: `test@test.com`
+- Password: `testpass`
 
-On Windows PowerShell:
-
-```powershell
-Copy-Item data\accounts.example.json data\accounts.json
-```
+Change that password before anyone else can reach the site. To add more venues, copy a user / organization / membership block and give each new id. `data/accounts.example.json` is a second copy of the same shape.
 
 Open `data/accounts.json` and change at least:
 
@@ -78,13 +73,13 @@ Keep the example `id` values if you only have one venue. For a second venue, giv
 node -e "console.log(crypto.randomUUID())"
 ```
 
-`data/accounts.json` is gitignored. Do not commit live passwords.
+These passwords are plain text in the repo. Treat `testpass` as a throwaway.
 
 Staff: either add another user with `"accountType": "staff"` and a membership row, or sign them in as a venue account and use **Join** with the room’s invite code.
 
 ## Band data file
 
-You do **not** create `data/bands.json` by hand. After a venue is signed in, they use **Band links** in the app. That writes `data/bands.json` (also gitignored). `data/bands.example.json` is only a shape reference.
+`data/bands.json` starts empty. After a venue is signed in, they use **Band links** in the app and that file is updated. On hosts without a persistent disk (including default Vercel), those writes do not last. `data/bands.example.json` is only a shape reference.
 
 Each band record has a `linkToken`. The public URL is:
 
@@ -164,7 +159,7 @@ pnpm test:coverage
 ## Project layout
 
 ```text
-data/                 live JSON stores (gitignored) + *.example.json
+data/                 accounts.json, bands.json, and *.example.json
 src/app/              App Router pages and /api/accounts, /api/bands
 src/app/b/[token]     unique band link
 src/components/       editor, canvas, menus, login

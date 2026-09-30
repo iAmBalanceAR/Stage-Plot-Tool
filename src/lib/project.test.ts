@@ -78,6 +78,7 @@ describe("StageCraft project utilities", () => {
     expect(project.readyToSubmit).toBe(false);
     expect(project.items[0].providedBy).toBe("band");
     expect(project.items[0].channelLabel).toBe("");
+    expect(project.items[0].iconSrc).toBe("");
     expect(project.version).toBe(2);
     expect(project.items[0].width).toBe(6.4);
   });

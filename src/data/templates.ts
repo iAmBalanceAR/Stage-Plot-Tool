@@ -7,6 +7,7 @@ import type {
   StageProject,
 } from "@/types/stage";
 import { getEquipmentDefinition } from "@/data/equipment";
+import { createId } from "@/lib/id";
 
 interface ItemSeed {
   kind: EquipmentKind;
@@ -47,6 +48,7 @@ const createItem = (id: string, seed: ItemSeed): StageItem => {
     notes: "",
     providedBy: seed.providedBy ?? "band",
     channelLabel: seed.channelLabel ?? "",
+    iconSrc: definition.iconSrc ?? "",
   };
 };
 
@@ -75,7 +77,7 @@ export const createBlankProject = (): StageProject => {
 
   return {
     version: 2,
-    id: crypto.randomUUID(),
+    id: createId(),
     name: "Untitled stage plot",
     actName: "",
     eventName: "",
@@ -503,11 +505,11 @@ export const cloneTemplateProject = (template: ProjectTemplate): StageProject =>
 
   return {
     ...clonedProject,
-    id: crypto.randomUUID(),
+    id: createId(),
     createdAt: timestamp,
     updatedAt: timestamp,
-    items: clonedProject.items.map((item) => ({ ...item, id: crypto.randomUUID() })),
-    inputs: clonedProject.inputs.map((input) => ({ ...input, id: crypto.randomUUID() })),
-    monitorMixes: clonedProject.monitorMixes.map((mix) => ({ ...mix, id: crypto.randomUUID() })),
+    items: clonedProject.items.map((item) => ({ ...item, id: createId() })),
+    inputs: clonedProject.inputs.map((input) => ({ ...input, id: createId() })),
+    monitorMixes: clonedProject.monitorMixes.map((mix) => ({ ...mix, id: createId() })),
   };
 };

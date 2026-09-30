@@ -21,12 +21,22 @@ export const equipmentKinds = [
   "other",
 ] as const;
 
-export const equipmentKindSchema = z.enum(equipmentKinds);
-export type EquipmentKind = z.infer<typeof equipmentKindSchema>;
+export type LegacyEquipmentKind = (typeof equipmentKinds)[number];
+export type EquipmentKind = string;
+
+export const equipmentCategoryNames = [
+  "People",
+  "Instruments",
+  "Audio",
+  "Stage",
+  "Production",
+] as const;
+
+export type EquipmentCategory = (typeof equipmentCategoryNames)[number];
 
 export const stageItemSchema = z.object({
   id: z.string().min(1),
-  kind: equipmentKindSchema,
+  kind: z.string().min(1).max(120),
   label: z.string().min(1).max(80),
   x: z.number().min(0).max(100),
   y: z.number().min(0).max(100),
@@ -37,6 +47,7 @@ export const stageItemSchema = z.object({
   notes: z.string().max(500),
   providedBy: z.enum(["band", "house"]).default("band"),
   channelLabel: z.string().max(20).default(""),
+  iconSrc: z.string().max(400).default(""),
 });
 
 export type StageItem = z.infer<typeof stageItemSchema>;
@@ -111,10 +122,12 @@ export interface ProjectCheck {
 export interface EquipmentDefinition {
   kind: EquipmentKind;
   label: string;
-  category: "People" | "Instruments" | "Audio" | "Stage" | "Production";
+  category: EquipmentCategory;
+  group: string;
   color: string;
   defaultWidth: number;
   defaultHeight: number;
+  iconSrc?: string;
 }
 
 export interface ProjectTemplate {

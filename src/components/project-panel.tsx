@@ -15,6 +15,7 @@ import {
 } from "lucide-react";
 import { toast } from "sonner";
 import { ItemIcon } from "@/components/item-icon";
+import { getEquipmentDefinition } from "@/data/equipment";
 import { convertLength, MIN_ITEM_SIZE } from "@/lib/geometry";
 import { formatInputListTsv, getProjectChecks, getReadinessScore } from "@/lib/project";
 import { useStageStore } from "@/store/stage-store";
@@ -230,13 +231,13 @@ const ItemProperties = ({ itemId }: { itemId: string }) => {
   return (
     <div className="space-y-5 p-4">
       <div className="flex items-center gap-3 rounded-xl border border-[var(--border)] bg-[var(--background)] p-3">
-        <span className="grid h-14 w-14 place-items-center rounded-xl bg-slate-100 p-1">
-          <ItemIcon kind={item.kind} className="h-12 w-12" />
+        <span className="grid h-14 w-14 place-items-center rounded-xl bg-[var(--stage)] p-1">
+          <ItemIcon kind={item.kind} iconSrc={item.iconSrc} className="h-12 w-12" />
         </span>
         <div className="min-w-0">
           <p className="truncate text-sm font-black">{item.label}</p>
           <p className="text-xs capitalize text-[var(--muted)]">
-            {item.kind.replace("-", " ")} · {item.width} × {item.height} {stage.unit}
+            {getEquipmentDefinition(item.kind).group} · {item.width} × {item.height} {stage.unit}
           </p>
         </div>
       </div>
@@ -740,13 +741,12 @@ const ReadinessCheck = () => {
           className="mt-1 h-4 w-4 accent-[var(--accent)]"
           checked={project.readyToSubmit}
           onChange={handleReadyToSubmit}
-          aria-label="Are you ready to submit"
+          aria-label="Is this packet finished"
         />
         <span>
-          <span className="block text-sm font-black">Are you ready to submit?</span>
+          <span className="block text-sm font-black">Is this packet finished?</span>
           <span className="mt-1 block text-[11px] leading-relaxed text-[var(--muted)]">
-            Check this when the plot, input list, mixes, and notes are finished. The venue treats
-            that as completed.
+            Check this when the plot, input list, mixes, and notes are ready to send.
           </span>
         </span>
       </label>

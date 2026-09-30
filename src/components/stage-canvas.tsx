@@ -2,7 +2,7 @@
 
 import { useRef, type DragEvent, type PointerEvent as ReactPointerEvent } from "react";
 import { Copy, Package, Trash2 } from "lucide-react";
-import { EquipmentArt } from "@/components/item-icon";
+import { ItemIcon } from "@/components/item-icon";
 import { itemHeightPercent, itemWidthPercent, percentToSize } from "@/lib/geometry";
 import { useStageStore } from "@/store/stage-store";
 import type { EquipmentKind, StageItem } from "@/types/stage";
@@ -210,7 +210,7 @@ export const StageCanvas = ({ zoom }: StageCanvasProps) => {
                         : ""
                     }`}
                   >
-                    <EquipmentArt kind={item.kind} className="h-full w-full" />
+                    <ItemIcon kind={item.kind} iconSrc={item.iconSrc} className="h-full w-full" />
                     <span className="pointer-events-none absolute left-1/2 top-[calc(100%+2px)] z-20 w-max max-w-28 -translate-x-1/2 text-center text-[clamp(8px,0.85vw,11px)] font-black leading-tight text-slate-800 drop-shadow-[0_1px_1px_rgba(255,255,255,0.95)]">
                       {item.label}
                     </span>

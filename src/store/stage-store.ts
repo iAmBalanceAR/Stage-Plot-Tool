@@ -4,6 +4,7 @@ import { create } from "zustand";
 import { getEquipmentDefinition } from "@/data/equipment";
 import { createBlankProject } from "@/data/templates";
 import { clampItemOnStage, feetToStageUnit } from "@/lib/geometry";
+import { createId } from "@/lib/id";
 import { loadStoredProject } from "@/lib/project";
 import type {
   EquipmentKind,
@@ -106,7 +107,7 @@ export const useStageStore = create<StageStore>((set, get) => {
         stage,
       );
       const item: StageItem = {
-        id: crypto.randomUUID(),
+        id: createId(),
         kind,
         label: definition.label,
         x: placed.x,
@@ -118,6 +119,7 @@ export const useStageStore = create<StageStore>((set, get) => {
         notes: "",
         providedBy: "band",
         channelLabel: "",
+        iconSrc: definition.iconSrc ?? "",
       };
       commitProject((project) => ({ ...project, items: [...project.items, item] }));
       set({ selectedItemId: item.id });
@@ -149,7 +151,7 @@ export const useStageStore = create<StageStore>((set, get) => {
       const duplicatedItem = {
         ...sourceItem,
         ...placed,
-        id: crypto.randomUUID(),
+        id: createId(),
         label: `${sourceItem.label} copy`,
       };
       commitProject((project) => ({
@@ -185,7 +187,7 @@ export const useStageStore = create<StageStore>((set, get) => {
       const channels = get().project.inputs.map((input) => input.channel);
       const nextChannel = channels.length ? Math.max(...channels) + 1 : 1;
       const input: InputChannel = {
-        id: crypto.randomUUID(),
+        id: createId(),
         channel: nextChannel,
         source: `Input ${nextChannel}`,
         micDi: "",
@@ -212,7 +214,7 @@ export const useStageStore = create<StageStore>((set, get) => {
     addMonitorMix: () => {
       const mixNumber = get().project.monitorMixes.length + 1;
       const mix: MonitorMix = {
-        id: crypto.randomUUID(),
+        id: createId(),
         name: `Mix ${mixNumber}`,
         type: "wedge",
         owner: "",

@@ -1,0 +1,2312 @@
+[
+  {
+    "kind": "guitar-2-bcbtiyqx",
+    "label": "Electric Guitar Red",
+    "group": "Guitar & Bass",
+    "category": "Instruments",
+    "color": "#f59e0b",
+    "iconSrc": "/icons/tecrider/guitar-2-BCbTiYQx.png",
+    "defaultWidth": 1.8,
+    "defaultHeight": 3.8
+  },
+  {
+    "kind": "guitar-3-d2ab9cvf",
+    "label": "Electric Guitar Blue",
+    "group": "Guitar & Bass",
+    "category": "Instruments",
+    "color": "#f59e0b",
+    "iconSrc": "/icons/tecrider/guitar-3-D2AB9CVF.png",
+    "defaultWidth": 1.8,
+    "defaultHeight": 3.8
+  },
+  {
+    "kind": "guitar-4-cedlfsd0",
+    "label": "Electric Guitar Black",
+    "group": "Guitar & Bass",
+    "category": "Instruments",
+    "color": "#f59e0b",
+    "iconSrc": "/icons/tecrider/guitar-4-CedlFsD0.png",
+    "defaultWidth": 1.8,
+    "defaultHeight": 3.8
+  },
+  {
+    "kind": "guitar-5-dcgqsprg",
+    "label": "Electric Guitar V",
+    "group": "Guitar & Bass",
+    "category": "Instruments",
+    "color": "#f59e0b",
+    "iconSrc": "/icons/tecrider/guitar-5-DcgqsprG.png",
+    "defaultWidth": 1.8,
+    "defaultHeight": 3.8
+  },
+  {
+    "kind": "guitar-6-iyktq-iz",
+    "label": "Electric Guitar Teal",
+    "group": "Guitar & Bass",
+    "category": "Instruments",
+    "color": "#f59e0b",
+    "iconSrc": "/icons/tecrider/guitar-6-iYKtq_iz.png",
+    "defaultWidth": 1.8,
+    "defaultHeight": 3.8
+  },
+  {
+    "kind": "guitar-7-bgzdst6b",
+    "label": "Electric Guitar Dark",
+    "group": "Guitar & Bass",
+    "category": "Instruments",
+    "color": "#f59e0b",
+    "iconSrc": "/icons/tecrider/guitar-7-BGzDST6B.png",
+    "defaultWidth": 1.8,
+    "defaultHeight": 3.8
+  },
+  {
+    "kind": "guitar-8-djefebsi",
+    "label": "Electric Guitar Orange",
+    "group": "Guitar & Bass",
+    "category": "Instruments",
+    "color": "#f59e0b",
+    "iconSrc": "/icons/tecrider/guitar-8-DjEFEbSI.png",
+    "defaultWidth": 1.8,
+    "defaultHeight": 3.8
+  },
+  {
+    "kind": "guitar-9-d4-sskru",
+    "label": "Electric Guitar Classic",
+    "group": "Guitar & Bass",
+    "category": "Instruments",
+    "color": "#f59e0b",
+    "iconSrc": "/icons/tecrider/guitar-9-D4_sSKru.png",
+    "defaultWidth": 1.8,
+    "defaultHeight": 3.8
+  },
+  {
+    "kind": "guitar-10-d8jrtu-t",
+    "label": "Acoustic Guitar",
+    "group": "Guitar & Bass",
+    "category": "Instruments",
+    "color": "#f59e0b",
+    "iconSrc": "/icons/tecrider/guitar-10-D8JRTu_t.png",
+    "defaultWidth": 1.8,
+    "defaultHeight": 3.8
+  },
+  {
+    "kind": "guitar-11-c1vprchr",
+    "label": "Electric Guitar Pink",
+    "group": "Guitar & Bass",
+    "category": "Instruments",
+    "color": "#f59e0b",
+    "iconSrc": "/icons/tecrider/guitar-11-C1vPrCHR.png",
+    "defaultWidth": 1.8,
+    "defaultHeight": 3.8
+  },
+  {
+    "kind": "guitar-12-bjtcfwij",
+    "label": "Acoustic Guitar Classic",
+    "group": "Guitar & Bass",
+    "category": "Instruments",
+    "color": "#f59e0b",
+    "iconSrc": "/icons/tecrider/guitar-12-BJTcFWij.png",
+    "defaultWidth": 1.8,
+    "defaultHeight": 3.8
+  },
+  {
+    "kind": "guitar-13-cefrvbv7",
+    "label": "Bass Guitar",
+    "group": "Guitar & Bass",
+    "category": "Instruments",
+    "color": "#f59e0b",
+    "iconSrc": "/icons/tecrider/guitar-13-CefRVbv7.png",
+    "defaultWidth": 1.8,
+    "defaultHeight": 3.8
+  },
+  {
+    "kind": "guitar-rock-dlaiosab",
+    "label": "Rock Guitar",
+    "group": "Guitar & Bass",
+    "category": "Instruments",
+    "color": "#f59e0b",
+    "iconSrc": "/icons/tecrider/guitar-rock-DlAIOSAB.png",
+    "defaultWidth": 1.8,
+    "defaultHeight": 3.8
+  },
+  {
+    "kind": "bass-14-drfvmlb8",
+    "label": "Electric Bass Red/Blue",
+    "group": "Guitar & Bass",
+    "category": "Instruments",
+    "color": "#f59e0b",
+    "iconSrc": "/icons/tecrider/bass-14-DRFvmlB8.png",
+    "defaultWidth": 1.8,
+    "defaultHeight": 3.8
+  },
+  {
+    "kind": "bass-16-ddzel42x",
+    "label": "Electric Bass Red/White",
+    "group": "Guitar & Bass",
+    "category": "Instruments",
+    "color": "#f59e0b",
+    "iconSrc": "/icons/tecrider/bass-16-DdZEl42x.png",
+    "defaultWidth": 1.8,
+    "defaultHeight": 3.8
+  },
+  {
+    "kind": "bass-17-bwfpg9mn",
+    "label": "Bass Guitar Black",
+    "group": "Guitar & Bass",
+    "category": "Instruments",
+    "color": "#f59e0b",
+    "iconSrc": "/icons/tecrider/bass-17-BWfPg9MN.png",
+    "defaultWidth": 1.8,
+    "defaultHeight": 3.8
+  },
+  {
+    "kind": "bass-18-cbnyavp1",
+    "label": "Electric Bass Yellow",
+    "group": "Guitar & Bass",
+    "category": "Instruments",
+    "color": "#f59e0b",
+    "iconSrc": "/icons/tecrider/bass-18-CbNyAvP1.png",
+    "defaultWidth": 1.8,
+    "defaultHeight": 3.8
+  },
+  {
+    "kind": "bass-19-bqoqx8yc",
+    "label": "Bass Guitar Silhouette",
+    "group": "Guitar & Bass",
+    "category": "Instruments",
+    "color": "#f59e0b",
+    "iconSrc": "/icons/tecrider/bass-19-BqOQx8yc.png",
+    "defaultWidth": 1.8,
+    "defaultHeight": 3.8
+  },
+  {
+    "kind": "banjo-dkwwcw9q",
+    "label": "Banjo",
+    "group": "Guitar & Bass",
+    "category": "Instruments",
+    "color": "#f59e0b",
+    "iconSrc": "/icons/tecrider/banjo-DKwwcw9Q.png",
+    "defaultWidth": 1.8,
+    "defaultHeight": 3.8
+  },
+  {
+    "kind": "bass-guitar-6-cmdd4np4",
+    "label": "Bass Guitar Line",
+    "group": "Guitar & Bass",
+    "category": "Instruments",
+    "color": "#f59e0b",
+    "iconSrc": "/icons/tecrider/bass-guitar-6-CmdD4np4.png",
+    "defaultWidth": 1.8,
+    "defaultHeight": 3.8
+  },
+  {
+    "kind": "guitar-14-d3ct5mf4",
+    "label": "Electric Guitar Pink Star",
+    "group": "Guitar & Bass",
+    "category": "Instruments",
+    "color": "#f59e0b",
+    "iconSrc": "/icons/tecrider/guitar-14-D3Ct5Mf4.png",
+    "defaultWidth": 1.8,
+    "defaultHeight": 3.8
+  },
+  {
+    "kind": "guitar-15-byx6-2gy",
+    "label": "Electric Guitar Purple",
+    "group": "Guitar & Bass",
+    "category": "Instruments",
+    "color": "#f59e0b",
+    "iconSrc": "/icons/tecrider/guitar-15-BYX6_2gY.png",
+    "defaultWidth": 1.8,
+    "defaultHeight": 3.8
+  },
+  {
+    "kind": "guitar-16-6u-hgxe",
+    "label": "Acoustic Guitar Line",
+    "group": "Guitar & Bass",
+    "category": "Instruments",
+    "color": "#f59e0b",
+    "iconSrc": "/icons/tecrider/guitar-16-6u-hGXE-.png",
+    "defaultWidth": 1.8,
+    "defaultHeight": 3.8
+  },
+  {
+    "kind": "guitar-17-dcytwxlm",
+    "label": "Electric Guitar Outline",
+    "group": "Guitar & Bass",
+    "category": "Instruments",
+    "color": "#f59e0b",
+    "iconSrc": "/icons/tecrider/guitar-17-DCyTwxlm.png",
+    "defaultWidth": 1.8,
+    "defaultHeight": 3.8
+  },
+  {
+    "kind": "guitar-pick-ca2wjpvx",
+    "label": "Guitar Pick",
+    "group": "Guitar & Bass",
+    "category": "Instruments",
+    "color": "#f59e0b",
+    "iconSrc": "/icons/tecrider/guitar-pick-CA2WJpVx.png",
+    "defaultWidth": 1.8,
+    "defaultHeight": 3.8
+  },
+  {
+    "kind": "guitar-picks-dpafgput",
+    "label": "Guitar Pick Outline",
+    "group": "Guitar & Bass",
+    "category": "Instruments",
+    "color": "#f59e0b",
+    "iconSrc": "/icons/tecrider/guitar-picks-DPaFgPut.png",
+    "defaultWidth": 1.8,
+    "defaultHeight": 3.8
+  },
+  {
+    "kind": "guitar-flying-v-2patraam",
+    "label": "Flying V Silhouette",
+    "group": "Guitar & Bass",
+    "category": "Instruments",
+    "color": "#f59e0b",
+    "iconSrc": "/icons/tecrider/guitar-flying-v-2patRAaM.png",
+    "defaultWidth": 2.2,
+    "defaultHeight": 2.4
+  },
+  {
+    "kind": "guitar-electric-3d-dwaq0ntg",
+    "label": "Electric Guitar 3D",
+    "group": "Guitar & Bass",
+    "category": "Instruments",
+    "color": "#f59e0b",
+    "iconSrc": "/icons/tecrider/guitar-electric-3d-Dwaq0ntg.png",
+    "defaultWidth": 1.8,
+    "defaultHeight": 3.8
+  },
+  {
+    "kind": "amp-engl-cxretd3y",
+    "label": "ENGL Savage 120",
+    "group": "Amps",
+    "category": "Audio",
+    "color": "#a855f7",
+    "iconSrc": "/icons/tecrider/amp-engl-CXRETD3y.png",
+    "defaultWidth": 2.4,
+    "defaultHeight": 2.2
+  },
+  {
+    "kind": "amp-marshall-1-cjuqmymh",
+    "label": "Marshall JCM 800",
+    "group": "Amps",
+    "category": "Audio",
+    "color": "#a855f7",
+    "iconSrc": "/icons/tecrider/amp-marshall-1-CJUqMymh.png",
+    "defaultWidth": 2.4,
+    "defaultHeight": 2.2
+  },
+  {
+    "kind": "amp-marshall-2-f8ggymw4",
+    "label": "Marshall Stack",
+    "group": "Amps",
+    "category": "Audio",
+    "color": "#a855f7",
+    "iconSrc": "/icons/tecrider/amp-marshall-2-f8GGYMw4.png",
+    "defaultWidth": 2.6,
+    "defaultHeight": 3.4
+  },
+  {
+    "kind": "amp-orange-1-bjfjlz2c",
+    "label": "Orange OR50",
+    "group": "Amps",
+    "category": "Audio",
+    "color": "#a855f7",
+    "iconSrc": "/icons/tecrider/amp-orange-1-BJfJLZ2c.png",
+    "defaultWidth": 2.4,
+    "defaultHeight": 2.2
+  },
+  {
+    "kind": "amp-orange-2-zvz9oxc5",
+    "label": "Orange Retro 50",
+    "group": "Amps",
+    "category": "Audio",
+    "color": "#a855f7",
+    "iconSrc": "/icons/tecrider/amp-orange-2-zvZ9oXc5.png",
+    "defaultWidth": 2.4,
+    "defaultHeight": 2.2
+  },
+  {
+    "kind": "amp-marshall-combo-ddpjagsm",
+    "label": "Marshall Combo",
+    "group": "Amps",
+    "category": "Audio",
+    "color": "#a855f7",
+    "iconSrc": "/icons/tecrider/amp-marshall-combo-DDPJAgSM.png",
+    "defaultWidth": 2.4,
+    "defaultHeight": 2.2
+  },
+  {
+    "kind": "amp-peavey-6505-dz4jshfa",
+    "label": "Peavey 6505",
+    "group": "Amps",
+    "category": "Audio",
+    "color": "#a855f7",
+    "iconSrc": "/icons/tecrider/amp-peavey-6505-DZ4JSHfA.png",
+    "defaultWidth": 2.4,
+    "defaultHeight": 2.2
+  },
+  {
+    "kind": "amp-yellow-c9hk5emw",
+    "label": "Yellow Amp",
+    "group": "Amps",
+    "category": "Audio",
+    "color": "#a855f7",
+    "iconSrc": "/icons/tecrider/amp-yellow-C9hk5emW.png",
+    "defaultWidth": 2.4,
+    "defaultHeight": 2.2
+  },
+  {
+    "kind": "amp-orange-xsxik7g",
+    "label": "Orange Amp",
+    "group": "Amps",
+    "category": "Audio",
+    "color": "#a855f7",
+    "iconSrc": "/icons/tecrider/amp-orange--XSXiK7g.png",
+    "defaultWidth": 2.4,
+    "defaultHeight": 2.2
+  },
+  {
+    "kind": "amp-pink-ykwics7e",
+    "label": "Pink Amp",
+    "group": "Amps",
+    "category": "Audio",
+    "color": "#a855f7",
+    "iconSrc": "/icons/tecrider/amp-pink-YKWicS7e.png",
+    "defaultWidth": 2.4,
+    "defaultHeight": 2.2
+  },
+  {
+    "kind": "amp-blue-jaqmer1b",
+    "label": "Blue Amp",
+    "group": "Amps",
+    "category": "Audio",
+    "color": "#a855f7",
+    "iconSrc": "/icons/tecrider/amp-blue-jAqmER1b.png",
+    "defaultWidth": 2.4,
+    "defaultHeight": 2.2
+  },
+  {
+    "kind": "amp-teal-eilawp90",
+    "label": "Teal Amp",
+    "group": "Amps",
+    "category": "Audio",
+    "color": "#a855f7",
+    "iconSrc": "/icons/tecrider/amp-teal-EIlawP90.png",
+    "defaultWidth": 2.4,
+    "defaultHeight": 2.2
+  },
+  {
+    "kind": "amp-dark-blue-b5j0gkjt",
+    "label": "Dark Blue Amp",
+    "group": "Amps",
+    "category": "Audio",
+    "color": "#a855f7",
+    "iconSrc": "/icons/tecrider/amp-dark-blue-B5J0GKJt.png",
+    "defaultWidth": 2.4,
+    "defaultHeight": 2.2
+  },
+  {
+    "kind": "amp-gray-bt2yfwtd",
+    "label": "Gray Amp",
+    "group": "Amps",
+    "category": "Audio",
+    "color": "#a855f7",
+    "iconSrc": "/icons/tecrider/amp-gray-Bt2yFWTD.png",
+    "defaultWidth": 2.4,
+    "defaultHeight": 2.2
+  },
+  {
+    "kind": "amp-brown-cxkb27jf",
+    "label": "Brown Amp",
+    "group": "Amps",
+    "category": "Audio",
+    "color": "#a855f7",
+    "iconSrc": "/icons/tecrider/amp-brown-CXKb27JF.png",
+    "defaultWidth": 2.4,
+    "defaultHeight": 2.2
+  },
+  {
+    "kind": "amp-combo-1-dhsews9w",
+    "label": "Combo Amp",
+    "group": "Amps",
+    "category": "Audio",
+    "color": "#a855f7",
+    "iconSrc": "/icons/tecrider/amp-combo-1-DhSEwS9W.png",
+    "defaultWidth": 2.4,
+    "defaultHeight": 2.2
+  },
+  {
+    "kind": "amp-head-2-ceiievzx",
+    "label": "Amp Head",
+    "group": "Amps",
+    "category": "Audio",
+    "color": "#a855f7",
+    "iconSrc": "/icons/tecrider/amp-head-2-CEiievZX.png",
+    "defaultWidth": 2.4,
+    "defaultHeight": 2.2
+  },
+  {
+    "kind": "amp-new-1-d9xudu44",
+    "label": "Amplifier Stack",
+    "group": "Amps",
+    "category": "Audio",
+    "color": "#a855f7",
+    "iconSrc": "/icons/tecrider/amp-new-1-D9XuDU44.png",
+    "defaultWidth": 2.6,
+    "defaultHeight": 3.4
+  },
+  {
+    "kind": "amp-new-2-ddgtsbqm",
+    "label": "Guitar Amp Head",
+    "group": "Amps",
+    "category": "Audio",
+    "color": "#a855f7",
+    "iconSrc": "/icons/tecrider/amp-new-2-DdgTsBQM.png",
+    "defaultWidth": 1.8,
+    "defaultHeight": 3.8
+  },
+  {
+    "kind": "amp-new-3-bklurytl",
+    "label": "Amplifier Head & Cabinet",
+    "group": "Amps",
+    "category": "Audio",
+    "color": "#a855f7",
+    "iconSrc": "/icons/tecrider/amp-new-3-BklURyTl.png",
+    "defaultWidth": 2.6,
+    "defaultHeight": 3.4
+  },
+  {
+    "kind": "amp-new-4-c6uw-hqn",
+    "label": "Combo Amplifier",
+    "group": "Amps",
+    "category": "Audio",
+    "color": "#a855f7",
+    "iconSrc": "/icons/tecrider/amp-new-4-C6UW_HQn.png",
+    "defaultWidth": 2.4,
+    "defaultHeight": 2.2
+  },
+  {
+    "kind": "amplifier-3-cddexqmc",
+    "label": "Line Art Amp",
+    "group": "Amps",
+    "category": "Audio",
+    "color": "#a855f7",
+    "iconSrc": "/icons/tecrider/amplifier-3-CDdEXQmc.png",
+    "defaultWidth": 2.4,
+    "defaultHeight": 2.2
+  },
+  {
+    "kind": "amplifier-4-buufe5wx",
+    "label": "Isometric Yellow Amp",
+    "group": "Amps",
+    "category": "Audio",
+    "color": "#a855f7",
+    "iconSrc": "/icons/tecrider/amplifier-4-Buufe5Wx.png",
+    "defaultWidth": 2.4,
+    "defaultHeight": 2.2
+  },
+  {
+    "kind": "amplifier-5-b-37amvc",
+    "label": "Isometric Combo Amp",
+    "group": "Amps",
+    "category": "Audio",
+    "color": "#a855f7",
+    "iconSrc": "/icons/tecrider/amplifier-5-B_37AmvC.png",
+    "defaultWidth": 2.4,
+    "defaultHeight": 2.2
+  },
+  {
+    "kind": "amplifier-6-qdqsheyf",
+    "label": "Purple Stack Amp",
+    "group": "Amps",
+    "category": "Audio",
+    "color": "#a855f7",
+    "iconSrc": "/icons/tecrider/amplifier-6-QdQshEyF.png",
+    "defaultWidth": 2.6,
+    "defaultHeight": 3.4
+  },
+  {
+    "kind": "amplifier-7-bqfu-uvm",
+    "label": "Orange Portable Amp",
+    "group": "Amps",
+    "category": "Audio",
+    "color": "#a855f7",
+    "iconSrc": "/icons/tecrider/amplifier-7-BQFU_UVm.png",
+    "defaultWidth": 2.4,
+    "defaultHeight": 2.2
+  },
+  {
+    "kind": "amplifier-8-bfvmhsfa",
+    "label": "Red Combo Amp",
+    "group": "Amps",
+    "category": "Audio",
+    "color": "#a855f7",
+    "iconSrc": "/icons/tecrider/amplifier-8-BfVMHsfA.png",
+    "defaultWidth": 2.4,
+    "defaultHeight": 2.2
+  },
+  {
+    "kind": "speaker-13-zdj86vf9",
+    "label": "Blue Combo Amp",
+    "group": "Amps",
+    "category": "Audio",
+    "color": "#a855f7",
+    "iconSrc": "/icons/tecrider/speaker-13-ZDj86vF9.png",
+    "defaultWidth": 2.4,
+    "defaultHeight": 2.2
+  },
+  {
+    "kind": "speaker-14-bts4kany",
+    "label": "4x12 Speaker Cabinet",
+    "group": "Amps",
+    "category": "Audio",
+    "color": "#a855f7",
+    "iconSrc": "/icons/tecrider/speaker-14-BTs4kaNy.png",
+    "defaultWidth": 2.6,
+    "defaultHeight": 3.4
+  },
+  {
+    "kind": "speaker-15-bmfuoxb4",
+    "label": "Double Speaker Stack",
+    "group": "Amps",
+    "category": "Audio",
+    "color": "#a855f7",
+    "iconSrc": "/icons/tecrider/speaker-15-BMFUOXB4.png",
+    "defaultWidth": 2.6,
+    "defaultHeight": 3.4
+  },
+  {
+    "kind": "pedal-yellow-tg2nsley",
+    "label": "Yellow Pedal",
+    "group": "Pedals",
+    "category": "Audio",
+    "color": "#22c55e",
+    "iconSrc": "/icons/tecrider/pedal-yellow-TG2NSleY.png",
+    "defaultWidth": 1.1,
+    "defaultHeight": 1.5
+  },
+  {
+    "kind": "pedal-orange-b7nstjcl",
+    "label": "Orange Pedal",
+    "group": "Pedals",
+    "category": "Audio",
+    "color": "#22c55e",
+    "iconSrc": "/icons/tecrider/pedal-orange-B7NSTJcl.png",
+    "defaultWidth": 1.1,
+    "defaultHeight": 1.5
+  },
+  {
+    "kind": "pedal-blue-dcodpydk",
+    "label": "Blue Pedal",
+    "group": "Pedals",
+    "category": "Audio",
+    "color": "#22c55e",
+    "iconSrc": "/icons/tecrider/pedal-blue-DcoDPyDk.png",
+    "defaultWidth": 1.1,
+    "defaultHeight": 1.5
+  },
+  {
+    "kind": "pedal-yellow-2-hrykgxt",
+    "label": "Multi Pedal",
+    "group": "Pedals",
+    "category": "Audio",
+    "color": "#22c55e",
+    "iconSrc": "/icons/tecrider/pedal-yellow-2-HrykGXt-.png",
+    "defaultWidth": 1.1,
+    "defaultHeight": 1.5
+  },
+  {
+    "kind": "pedal-orange-2-d5bybxev",
+    "label": "Fader Pedal",
+    "group": "Pedals",
+    "category": "Audio",
+    "color": "#22c55e",
+    "iconSrc": "/icons/tecrider/pedal-orange-2-D5BybXEv.png",
+    "defaultWidth": 1.1,
+    "defaultHeight": 1.5
+  },
+  {
+    "kind": "pedal-cyan-dtenchpb",
+    "label": "Multi Effect",
+    "group": "Pedals",
+    "category": "Audio",
+    "color": "#22c55e",
+    "iconSrc": "/icons/tecrider/pedal-cyan-DtenChPB.png",
+    "defaultWidth": 1.1,
+    "defaultHeight": 1.5
+  },
+  {
+    "kind": "pedal-green-cjrkajzj",
+    "label": "Green Pedal",
+    "group": "Pedals",
+    "category": "Audio",
+    "color": "#22c55e",
+    "iconSrc": "/icons/tecrider/pedal-green-CjRkAJzj.png",
+    "defaultWidth": 1.1,
+    "defaultHeight": 1.5
+  },
+  {
+    "kind": "pedal-green-2-dicic4-k",
+    "label": "Distortion",
+    "group": "Pedals",
+    "category": "Audio",
+    "color": "#22c55e",
+    "iconSrc": "/icons/tecrider/pedal-green-2-DICic4_k.png",
+    "defaultWidth": 1.1,
+    "defaultHeight": 1.5
+  },
+  {
+    "kind": "pedal-multi-bcgjrxza",
+    "label": "Multi Pedal Board",
+    "group": "Pedals",
+    "category": "Audio",
+    "color": "#22c55e",
+    "iconSrc": "/icons/tecrider/pedal-multi-BcGJRXzA.png",
+    "defaultWidth": 1.1,
+    "defaultHeight": 1.5
+  },
+  {
+    "kind": "pedal-talkbox-kikoboy0",
+    "label": "Talk Box",
+    "group": "Pedals",
+    "category": "Audio",
+    "color": "#22c55e",
+    "iconSrc": "/icons/tecrider/pedal-talkbox-KIKOboY0.png",
+    "defaultWidth": 1.1,
+    "defaultHeight": 1.5
+  },
+  {
+    "kind": "pedal-effect-dvnupx7",
+    "label": "Effect Pedal",
+    "group": "Pedals",
+    "category": "Audio",
+    "color": "#22c55e",
+    "iconSrc": "/icons/tecrider/pedal-effect-DVnupx7-.png",
+    "defaultWidth": 1.1,
+    "defaultHeight": 1.5
+  },
+  {
+    "kind": "pedal-knobs-cc3hsns5",
+    "label": "Knob Pedal",
+    "group": "Pedals",
+    "category": "Audio",
+    "color": "#22c55e",
+    "iconSrc": "/icons/tecrider/pedal-knobs-CC3hSnS5.png",
+    "defaultWidth": 1.1,
+    "defaultHeight": 1.5
+  },
+  {
+    "kind": "pedal-red-bqn7fqlk",
+    "label": "Red Pedal",
+    "group": "Pedals",
+    "category": "Audio",
+    "color": "#22c55e",
+    "iconSrc": "/icons/tecrider/pedal-red-BQN7fqLK.png",
+    "defaultWidth": 1.1,
+    "defaultHeight": 1.5
+  },
+  {
+    "kind": "pedal-arrows-54nwfmb",
+    "label": "Stereo Pedal",
+    "group": "Pedals",
+    "category": "Audio",
+    "color": "#22c55e",
+    "iconSrc": "/icons/tecrider/pedal-arrows-54nwFMB-.png",
+    "defaultWidth": 1.1,
+    "defaultHeight": 1.5
+  },
+  {
+    "kind": "pedal-blue-fader-dhydry30",
+    "label": "Blue Fader",
+    "group": "Pedals",
+    "category": "Audio",
+    "color": "#22c55e",
+    "iconSrc": "/icons/tecrider/pedal-blue-fader-DHYdrY30.png",
+    "defaultWidth": 1.1,
+    "defaultHeight": 1.5
+  },
+  {
+    "kind": "guitar-pedal-15-bcm52hwa",
+    "label": "Guitar Pedal 15",
+    "group": "Pedals",
+    "category": "Audio",
+    "color": "#22c55e",
+    "iconSrc": "/icons/tecrider/guitar-pedal-15-BCm52HWA.png",
+    "defaultWidth": 1.1,
+    "defaultHeight": 1.5
+  },
+  {
+    "kind": "pedal-guitar-10-byx3uayd",
+    "label": "Pedal Guitar 10",
+    "group": "Pedals",
+    "category": "Audio",
+    "color": "#22c55e",
+    "iconSrc": "/icons/tecrider/pedal-guitar-10-BYX3UayD.png",
+    "defaultWidth": 1.1,
+    "defaultHeight": 1.5
+  },
+  {
+    "kind": "pedal-3-bxuw9dzf",
+    "label": "Pedal 3",
+    "group": "Pedals",
+    "category": "Audio",
+    "color": "#22c55e",
+    "iconSrc": "/icons/tecrider/pedal-3-BXuW9DZF.png",
+    "defaultWidth": 1.1,
+    "defaultHeight": 1.5
+  },
+  {
+    "kind": "pedal-2-c3lq-qi0",
+    "label": "Pedal 2",
+    "group": "Pedals",
+    "category": "Audio",
+    "color": "#22c55e",
+    "iconSrc": "/icons/tecrider/pedal-2-C3Lq-qI0.png",
+    "defaultWidth": 1.1,
+    "defaultHeight": 1.5
+  },
+  {
+    "kind": "pedal-guitar-9-kjfsnhrk",
+    "label": "Pedal Guitar 9",
+    "group": "Pedals",
+    "category": "Audio",
+    "color": "#22c55e",
+    "iconSrc": "/icons/tecrider/pedal-guitar-9-kJFSnhrk.png",
+    "defaultWidth": 1.1,
+    "defaultHeight": 1.5
+  },
+  {
+    "kind": "guitar-pedal-14-bkr-taox",
+    "label": "Guitar Pedal 14",
+    "group": "Pedals",
+    "category": "Audio",
+    "color": "#22c55e",
+    "iconSrc": "/icons/tecrider/guitar-pedal-14-bkR_tAOx.png",
+    "defaultWidth": 1.1,
+    "defaultHeight": 1.5
+  },
+  {
+    "kind": "guitar-pedal-13-ci-vkav0",
+    "label": "Guitar Pedal 13",
+    "group": "Pedals",
+    "category": "Audio",
+    "color": "#22c55e",
+    "iconSrc": "/icons/tecrider/guitar-pedal-13-Ci-vKav0.png",
+    "defaultWidth": 1.1,
+    "defaultHeight": 1.5
+  },
+  {
+    "kind": "guitar-pedal-12-bno-g20p",
+    "label": "Guitar Pedal 12",
+    "group": "Pedals",
+    "category": "Audio",
+    "color": "#22c55e",
+    "iconSrc": "/icons/tecrider/guitar-pedal-12-BnO-g20p.png",
+    "defaultWidth": 1.1,
+    "defaultHeight": 1.5
+  },
+  {
+    "kind": "guitar-pedal-11-b6bs2jhy",
+    "label": "Guitar Pedal 11",
+    "group": "Pedals",
+    "category": "Audio",
+    "color": "#22c55e",
+    "iconSrc": "/icons/tecrider/guitar-pedal-11-B6BS2jhy.png",
+    "defaultWidth": 1.1,
+    "defaultHeight": 1.5
+  },
+  {
+    "kind": "pedal-guitar-8-dfosohw2",
+    "label": "Pedal Guitar 8",
+    "group": "Pedals",
+    "category": "Audio",
+    "color": "#22c55e",
+    "iconSrc": "/icons/tecrider/pedal-guitar-8-DFoSohW2.png",
+    "defaultWidth": 1.1,
+    "defaultHeight": 1.5
+  },
+  {
+    "kind": "drum-set-1-k0kpo1ca",
+    "label": "Drum Set",
+    "group": "Drums & Percussion",
+    "category": "Instruments",
+    "color": "#ef4444",
+    "iconSrc": "/icons/tecrider/drum-set-1-K0kPO1cA.png",
+    "defaultWidth": 7,
+    "defaultHeight": 6
+  },
+  {
+    "kind": "drum-set-2-roevi8h9",
+    "label": "Drum Kit Red",
+    "group": "Drums & Percussion",
+    "category": "Instruments",
+    "color": "#ef4444",
+    "iconSrc": "/icons/tecrider/drum-set-2-RoEVi8h9.png",
+    "defaultWidth": 7,
+    "defaultHeight": 6
+  },
+  {
+    "kind": "drum-set-3-br3zsakm",
+    "label": "Drum Kit Pink",
+    "group": "Drums & Percussion",
+    "category": "Instruments",
+    "color": "#ef4444",
+    "iconSrc": "/icons/tecrider/drum-set-3-BR3zSAKM.png",
+    "defaultWidth": 7,
+    "defaultHeight": 6
+  },
+  {
+    "kind": "drum-kit-dchwwqzl",
+    "label": "Snare Drum",
+    "group": "Drums & Percussion",
+    "category": "Instruments",
+    "color": "#ef4444",
+    "iconSrc": "/icons/tecrider/drum-kit-DchWwQZL.png",
+    "defaultWidth": 3.2,
+    "defaultHeight": 3.2
+  },
+  {
+    "kind": "snare-drum-1-f-5bcklh",
+    "label": "Snare Drum 2",
+    "group": "Drums & Percussion",
+    "category": "Instruments",
+    "color": "#ef4444",
+    "iconSrc": "/icons/tecrider/snare-drum-1-F_5BckLh.png",
+    "defaultWidth": 3.2,
+    "defaultHeight": 3.2
+  },
+  {
+    "kind": "snare-drum-2-c-hderdj",
+    "label": "Snare Stand",
+    "group": "Drums & Percussion",
+    "category": "Instruments",
+    "color": "#ef4444",
+    "iconSrc": "/icons/tecrider/snare-drum-2-C_hDERdJ.png",
+    "defaultWidth": 3.2,
+    "defaultHeight": 3.2
+  },
+  {
+    "kind": "bass-drum-1-p9alphtz",
+    "label": "Bass Drum",
+    "group": "Drums & Percussion",
+    "category": "Instruments",
+    "color": "#ef4444",
+    "iconSrc": "/icons/tecrider/bass-drum-1-P9ALpHTz.png",
+    "defaultWidth": 1.8,
+    "defaultHeight": 3.8
+  },
+  {
+    "kind": "bass-drum-2-d2vqdso4",
+    "label": "Bass Drum Kit",
+    "group": "Drums & Percussion",
+    "category": "Instruments",
+    "color": "#ef4444",
+    "iconSrc": "/icons/tecrider/bass-drum-2-D2VqdSo4.png",
+    "defaultWidth": 7,
+    "defaultHeight": 6
+  },
+  {
+    "kind": "drum-3-dnw-eslk",
+    "label": "Marching Drum",
+    "group": "Drums & Percussion",
+    "category": "Instruments",
+    "color": "#ef4444",
+    "iconSrc": "/icons/tecrider/drum-3-DNw-esLk.png",
+    "defaultWidth": 3.2,
+    "defaultHeight": 3.2
+  },
+  {
+    "kind": "drum-4-cu34phzs",
+    "label": "Drum with Sticks",
+    "group": "Drums & Percussion",
+    "category": "Instruments",
+    "color": "#ef4444",
+    "iconSrc": "/icons/tecrider/drum-4-CU34phZS.png",
+    "defaultWidth": 3.2,
+    "defaultHeight": 3.2
+  },
+  {
+    "kind": "drum-5-6jecwews",
+    "label": "Orchestra Drum",
+    "group": "Drums & Percussion",
+    "category": "Instruments",
+    "color": "#ef4444",
+    "iconSrc": "/icons/tecrider/drum-5-6JecweWS.png",
+    "defaultWidth": 3.2,
+    "defaultHeight": 3.2
+  },
+  {
+    "kind": "conga-baa1qk6",
+    "label": "Conga",
+    "group": "Drums & Percussion",
+    "category": "Instruments",
+    "color": "#ef4444",
+    "iconSrc": "/icons/tecrider/conga-BAa1qk6_.png",
+    "defaultWidth": 3.2,
+    "defaultHeight": 3.2
+  },
+  {
+    "kind": "cymbal-1-bshsvkfs",
+    "label": "Cymbal",
+    "group": "Drums & Percussion",
+    "category": "Instruments",
+    "color": "#ef4444",
+    "iconSrc": "/icons/tecrider/cymbal-1-BsHsvKFS.png",
+    "defaultWidth": 3.2,
+    "defaultHeight": 3.2
+  },
+  {
+    "kind": "cymbal-2-dggzs62m",
+    "label": "Cymbal Stand",
+    "group": "Drums & Percussion",
+    "category": "Instruments",
+    "color": "#ef4444",
+    "iconSrc": "/icons/tecrider/cymbal-2-DgGzS62m.png",
+    "defaultWidth": 3.2,
+    "defaultHeight": 3.2
+  },
+  {
+    "kind": "cymbal-stand-blvxboky",
+    "label": "Hi-Hat Stand",
+    "group": "Drums & Percussion",
+    "category": "Instruments",
+    "color": "#ef4444",
+    "iconSrc": "/icons/tecrider/cymbal-stand-BlvxbOkY.png",
+    "defaultWidth": 3.2,
+    "defaultHeight": 3.2
+  },
+  {
+    "kind": "djembe-btwp-d-o",
+    "label": "Djembe",
+    "group": "Drums & Percussion",
+    "category": "Instruments",
+    "color": "#ef4444",
+    "iconSrc": "/icons/tecrider/djembe-BTwp_D-o.png",
+    "defaultWidth": 3.2,
+    "defaultHeight": 3.2
+  },
+  {
+    "kind": "drum-1-dxdzmfmk",
+    "label": "Hand Drum",
+    "group": "Drums & Percussion",
+    "category": "Instruments",
+    "color": "#ef4444",
+    "iconSrc": "/icons/tecrider/drum-1-DXdzMfMk.png",
+    "defaultWidth": 3.2,
+    "defaultHeight": 3.2
+  },
+  {
+    "kind": "drum-2-bi78ptby",
+    "label": "Bongo Drum",
+    "group": "Drums & Percussion",
+    "category": "Instruments",
+    "color": "#ef4444",
+    "iconSrc": "/icons/tecrider/drum-2-Bi78pTBY.png",
+    "defaultWidth": 3.2,
+    "defaultHeight": 3.2
+  },
+  {
+    "kind": "drum-throne-rkq7-fl8",
+    "label": "Drum Throne",
+    "group": "Drums & Percussion",
+    "category": "Instruments",
+    "color": "#ef4444",
+    "iconSrc": "/icons/tecrider/drum-throne-rkQ7_FL8.png",
+    "defaultWidth": 3.2,
+    "defaultHeight": 3.2
+  },
+  {
+    "kind": "drum-sticks-cicf6fxf",
+    "label": "Drum Sticks",
+    "group": "Drums & Percussion",
+    "category": "Instruments",
+    "color": "#ef4444",
+    "iconSrc": "/icons/tecrider/drum-sticks-CICf6fXf.png",
+    "defaultWidth": 3.2,
+    "defaultHeight": 3.2
+  },
+  {
+    "kind": "drum-set-4-88ddycf7",
+    "label": "Colored Drum Kit",
+    "group": "Drums & Percussion",
+    "category": "Instruments",
+    "color": "#ef4444",
+    "iconSrc": "/icons/tecrider/drum-set-4-88DDyCF7.png",
+    "defaultWidth": 7,
+    "defaultHeight": 6
+  },
+  {
+    "kind": "drum-set-5-dujr0g59",
+    "label": "Electronic Pad Top",
+    "group": "Drums & Percussion",
+    "category": "Instruments",
+    "color": "#ef4444",
+    "iconSrc": "/icons/tecrider/drum-set-5-DuJR0g59.png",
+    "defaultWidth": 3.2,
+    "defaultHeight": 3.2
+  },
+  {
+    "kind": "drums-1-dmm-b6dc",
+    "label": "Red Drum Kit 3D",
+    "group": "Drums & Percussion",
+    "category": "Instruments",
+    "color": "#ef4444",
+    "iconSrc": "/icons/tecrider/drums-1-DmM_B6DC.png",
+    "defaultWidth": 7,
+    "defaultHeight": 6
+  },
+  {
+    "kind": "drumset-1-dqsvruvt",
+    "label": "Drum Kit Line Art",
+    "group": "Drums & Percussion",
+    "category": "Instruments",
+    "color": "#ef4444",
+    "iconSrc": "/icons/tecrider/drumset-1-DqsvruVt.png",
+    "defaultWidth": 7,
+    "defaultHeight": 6
+  },
+  {
+    "kind": "drumset-dx6hl2f6",
+    "label": "Drum Kit Solid",
+    "group": "Drums & Percussion",
+    "category": "Instruments",
+    "color": "#ef4444",
+    "iconSrc": "/icons/tecrider/drumset-DX6hl2F6.png",
+    "defaultWidth": 7,
+    "defaultHeight": 6
+  },
+  {
+    "kind": "electric-drum-1-df3un-ko",
+    "label": "E-Drum Pad",
+    "group": "Drums & Percussion",
+    "category": "Instruments",
+    "color": "#ef4444",
+    "iconSrc": "/icons/tecrider/electric-drum-1-Df3Un_ko.png",
+    "defaultWidth": 3.2,
+    "defaultHeight": 3.2
+  },
+  {
+    "kind": "electric-drum-dlfdm3bw",
+    "label": "Electronic Drums",
+    "group": "Drums & Percussion",
+    "category": "Instruments",
+    "color": "#ef4444",
+    "iconSrc": "/icons/tecrider/electric-drum-DLFdM3bW.png",
+    "defaultWidth": 7,
+    "defaultHeight": 6
+  },
+  {
+    "kind": "keyboard-1-bd-nd4hm",
+    "label": "Keyboard Red",
+    "group": "Keys",
+    "category": "Instruments",
+    "color": "#8b5cf6",
+    "iconSrc": "/icons/tecrider/keyboard-1-BD_nd4Hm.png",
+    "defaultWidth": 5.2,
+    "defaultHeight": 2.2
+  },
+  {
+    "kind": "keyboard-2-d1ivy0xd",
+    "label": "Synthesizer Blue",
+    "group": "Keys",
+    "category": "Instruments",
+    "color": "#8b5cf6",
+    "iconSrc": "/icons/tecrider/keyboard-2-D1iVY0xD.png",
+    "defaultWidth": 5.2,
+    "defaultHeight": 2.2
+  },
+  {
+    "kind": "keyboard-3-dn1pb-5v",
+    "label": "Keyboard Blue",
+    "group": "Keys",
+    "category": "Instruments",
+    "color": "#8b5cf6",
+    "iconSrc": "/icons/tecrider/keyboard-3-DN1pB-5V.png",
+    "defaultWidth": 5.2,
+    "defaultHeight": 2.2
+  },
+  {
+    "kind": "keyboard-5-u9bnw4gt",
+    "label": "Mixer Board",
+    "group": "Keys",
+    "category": "Instruments",
+    "color": "#8b5cf6",
+    "iconSrc": "/icons/tecrider/keyboard-5-U9BNW4Gt.png",
+    "defaultWidth": 2.2,
+    "defaultHeight": 2.4
+  },
+  {
+    "kind": "keyboard-6-mue2lbca",
+    "label": "MIDI Controller 2",
+    "group": "Keys",
+    "category": "Instruments",
+    "color": "#8b5cf6",
+    "iconSrc": "/icons/tecrider/keyboard-6-Mue2LBCA.png",
+    "defaultWidth": 5.2,
+    "defaultHeight": 2.2
+  },
+  {
+    "kind": "keyboard-7-boz9pmar",
+    "label": "Synth Pad",
+    "group": "Keys",
+    "category": "Instruments",
+    "color": "#8b5cf6",
+    "iconSrc": "/icons/tecrider/keyboard-7-Boz9pmaR.png",
+    "defaultWidth": 5.2,
+    "defaultHeight": 2.2
+  },
+  {
+    "kind": "keyboard-8-bjz63hdq",
+    "label": "Fader Controller",
+    "group": "Keys",
+    "category": "Instruments",
+    "color": "#8b5cf6",
+    "iconSrc": "/icons/tecrider/keyboard-8-BJZ63HDQ.png",
+    "defaultWidth": 2.2,
+    "defaultHeight": 2.4
+  },
+  {
+    "kind": "keyboard-10-s6jk139y",
+    "label": "Keyboard Pink",
+    "group": "Keys",
+    "category": "Instruments",
+    "color": "#8b5cf6",
+    "iconSrc": "/icons/tecrider/keyboard-10-S6jK139Y.png",
+    "defaultWidth": 5.2,
+    "defaultHeight": 2.2
+  },
+  {
+    "kind": "piano-grand-cmsigqie",
+    "label": "Grand Piano",
+    "group": "Keys",
+    "category": "Instruments",
+    "color": "#8b5cf6",
+    "iconSrc": "/icons/tecrider/piano-grand-CmsIGQie.png",
+    "defaultWidth": 7,
+    "defaultHeight": 3.4
+  },
+  {
+    "kind": "keyboard-11-cbftotnk",
+    "label": "MIDI Keyboard 1",
+    "group": "Keys",
+    "category": "Instruments",
+    "color": "#8b5cf6",
+    "iconSrc": "/icons/tecrider/keyboard-11-CbFTOtnK.png",
+    "defaultWidth": 5.2,
+    "defaultHeight": 2.2
+  },
+  {
+    "kind": "keyboard-13-0gfrdhkn",
+    "label": "MIDI Keyboard 3",
+    "group": "Keys",
+    "category": "Instruments",
+    "color": "#8b5cf6",
+    "iconSrc": "/icons/tecrider/keyboard-13-0gfRDhkn.png",
+    "defaultWidth": 5.2,
+    "defaultHeight": 2.2
+  },
+  {
+    "kind": "piano-1-blp0l-w0",
+    "label": "Piano",
+    "group": "Keys",
+    "category": "Instruments",
+    "color": "#8b5cf6",
+    "iconSrc": "/icons/tecrider/piano-1-Blp0L-W0.png",
+    "defaultWidth": 5.2,
+    "defaultHeight": 2.2
+  },
+  {
+    "kind": "piano-2-b2kedwi1",
+    "label": "Mini Piano",
+    "group": "Keys",
+    "category": "Instruments",
+    "color": "#8b5cf6",
+    "iconSrc": "/icons/tecrider/piano-2-B2kEDwi1.png",
+    "defaultWidth": 5.2,
+    "defaultHeight": 2.2
+  },
+  {
+    "kind": "keyboard-14-bic0kte",
+    "label": "Synthesizer Purple",
+    "group": "Keys",
+    "category": "Instruments",
+    "color": "#8b5cf6",
+    "iconSrc": "/icons/tecrider/keyboard-14-Bic0KTe_.png",
+    "defaultWidth": 5.2,
+    "defaultHeight": 2.2
+  },
+  {
+    "kind": "keyboard-15-co-w0ei9",
+    "label": "MIDI Pad Controller",
+    "group": "Keys",
+    "category": "Instruments",
+    "color": "#8b5cf6",
+    "iconSrc": "/icons/tecrider/keyboard-15-CO_W0Ei9.png",
+    "defaultWidth": 5.2,
+    "defaultHeight": 2.2
+  },
+  {
+    "kind": "keyboard-16-c8emtzqa",
+    "label": "MIDI Controller Grid",
+    "group": "Keys",
+    "category": "Instruments",
+    "color": "#8b5cf6",
+    "iconSrc": "/icons/tecrider/keyboard-16-C8eMtZqa.png",
+    "defaultWidth": 5.2,
+    "defaultHeight": 2.2
+  },
+  {
+    "kind": "keyboard-17-cy8kq-bz",
+    "label": "MIDI Keyboard Compact",
+    "group": "Keys",
+    "category": "Instruments",
+    "color": "#8b5cf6",
+    "iconSrc": "/icons/tecrider/keyboard-17-CY8Kq-bz.png",
+    "defaultWidth": 5.2,
+    "defaultHeight": 2.2
+  },
+  {
+    "kind": "keyboard-18-m-fdpydr",
+    "label": "Pad Controller",
+    "group": "Keys",
+    "category": "Instruments",
+    "color": "#8b5cf6",
+    "iconSrc": "/icons/tecrider/keyboard-18-m_FDPYdr.png",
+    "defaultWidth": 2.2,
+    "defaultHeight": 2.4
+  },
+  {
+    "kind": "keyboard-19-chaegqz6",
+    "label": "Synth Module",
+    "group": "Keys",
+    "category": "Instruments",
+    "color": "#8b5cf6",
+    "iconSrc": "/icons/tecrider/keyboard-19-ChaegQz6.png",
+    "defaultWidth": 5.2,
+    "defaultHeight": 2.2
+  },
+  {
+    "kind": "keyboard-20-bg9q881v",
+    "label": "Rack Synth",
+    "group": "Keys",
+    "category": "Instruments",
+    "color": "#8b5cf6",
+    "iconSrc": "/icons/tecrider/keyboard-20-Bg9Q881v.png",
+    "defaultWidth": 5.2,
+    "defaultHeight": 2.2
+  },
+  {
+    "kind": "piano-grand-color-bxvmvh5i",
+    "label": "Grand Piano Color",
+    "group": "Keys",
+    "category": "Instruments",
+    "color": "#8b5cf6",
+    "iconSrc": "/icons/tecrider/piano-grand-color-BxvmvH5I.png",
+    "defaultWidth": 7,
+    "defaultHeight": 3.4
+  },
+  {
+    "kind": "piano-upright-byr-lcuv",
+    "label": "Upright Piano",
+    "group": "Keys",
+    "category": "Instruments",
+    "color": "#8b5cf6",
+    "iconSrc": "/icons/tecrider/piano-upright-Byr_LCuv.png",
+    "defaultWidth": 3.2,
+    "defaultHeight": 2.4
+  },
+  {
+    "kind": "piano-grand-black-dbb6mrgl",
+    "label": "Grand Piano Black",
+    "group": "Keys",
+    "category": "Instruments",
+    "color": "#8b5cf6",
+    "iconSrc": "/icons/tecrider/piano-grand-black-DBB6MRgl.png",
+    "defaultWidth": 7,
+    "defaultHeight": 3.4
+  },
+  {
+    "kind": "piano-grand-gray-dbocbs-f",
+    "label": "Grand Piano Gray",
+    "group": "Keys",
+    "category": "Instruments",
+    "color": "#8b5cf6",
+    "iconSrc": "/icons/tecrider/piano-grand-gray-DbOcbs-F.png",
+    "defaultWidth": 7,
+    "defaultHeight": 3.4
+  },
+  {
+    "kind": "piano-grand-brown-9vbj3kvw",
+    "label": "Grand Piano Brown",
+    "group": "Keys",
+    "category": "Instruments",
+    "color": "#8b5cf6",
+    "iconSrc": "/icons/tecrider/piano-grand-brown-9vBJ3kvW.png",
+    "defaultWidth": 7,
+    "defaultHeight": 3.4
+  },
+  {
+    "kind": "keyboard-synth-dikaczvk",
+    "label": "Synthesizer Keyboard",
+    "group": "Keys",
+    "category": "Instruments",
+    "color": "#8b5cf6",
+    "iconSrc": "/icons/tecrider/keyboard-synth-DikAcZvk.png",
+    "defaultWidth": 5.2,
+    "defaultHeight": 2.2
+  },
+  {
+    "kind": "keyboard-21-ds41q3xs",
+    "label": "Red Midi Keyboard",
+    "group": "Keys",
+    "category": "Instruments",
+    "color": "#8b5cf6",
+    "iconSrc": "/icons/tecrider/keyboard-21-Ds41q3Xs.png",
+    "defaultWidth": 5.2,
+    "defaultHeight": 2.2
+  },
+  {
+    "kind": "keyboard-synth-2-byj8whkz",
+    "label": "Red Keytar",
+    "group": "Keys",
+    "category": "Instruments",
+    "color": "#8b5cf6",
+    "iconSrc": "/icons/tecrider/keyboard-synth-2-ByJ8WHKZ.png",
+    "defaultWidth": 2.2,
+    "defaultHeight": 2.4
+  },
+  {
+    "kind": "keyboard-synth-3-ryrinay",
+    "label": "Orange Synth",
+    "group": "Keys",
+    "category": "Instruments",
+    "color": "#8b5cf6",
+    "iconSrc": "/icons/tecrider/keyboard-synth-3--ryrInAy.png",
+    "defaultWidth": 5.2,
+    "defaultHeight": 2.2
+  },
+  {
+    "kind": "keytar-baagdhzd",
+    "label": "Keytar",
+    "group": "Keys",
+    "category": "Instruments",
+    "color": "#8b5cf6",
+    "iconSrc": "/icons/tecrider/keytar-BAAGdhzD.png",
+    "defaultWidth": 2.2,
+    "defaultHeight": 2.4
+  },
+  {
+    "kind": "keyboard-22-b6x-tgfl",
+    "label": "Synth Keyboard",
+    "group": "Keys",
+    "category": "Instruments",
+    "color": "#8b5cf6",
+    "iconSrc": "/icons/tecrider/keyboard-22-B6x_tGfL.png",
+    "defaultWidth": 5.2,
+    "defaultHeight": 2.2
+  },
+  {
+    "kind": "keyboard-stand-c9poyum6",
+    "label": "Keyboard Stand",
+    "group": "Keys",
+    "category": "Instruments",
+    "color": "#8b5cf6",
+    "iconSrc": "/icons/tecrider/keyboard-stand-C9POYuM6.png",
+    "defaultWidth": 5.2,
+    "defaultHeight": 2.2
+  },
+  {
+    "kind": "drum-machine-bv5548li",
+    "label": "Drum Machine",
+    "group": "Keys",
+    "category": "Instruments",
+    "color": "#8b5cf6",
+    "iconSrc": "/icons/tecrider/drum-machine-Bv5548LI.png",
+    "defaultWidth": 2.2,
+    "defaultHeight": 2.4
+  },
+  {
+    "kind": "drum-machine-2-cjgcbhpu",
+    "label": "Launchpad Purple",
+    "group": "Keys",
+    "category": "Instruments",
+    "color": "#8b5cf6",
+    "iconSrc": "/icons/tecrider/drum-machine-2-CjGCbhPU.png",
+    "defaultWidth": 2.2,
+    "defaultHeight": 2.4
+  },
+  {
+    "kind": "drum-machine-1-pdy9omr1",
+    "label": "Sampler",
+    "group": "Keys",
+    "category": "Instruments",
+    "color": "#8b5cf6",
+    "iconSrc": "/icons/tecrider/drum-machine-1-pdy9OmR1.png",
+    "defaultWidth": 2.4,
+    "defaultHeight": 2.2
+  },
+  {
+    "kind": "launchpad-b1vser16",
+    "label": "Launchpad",
+    "group": "Keys",
+    "category": "Instruments",
+    "color": "#8b5cf6",
+    "iconSrc": "/icons/tecrider/launchpad-B1vsER16.png",
+    "defaultWidth": 2.2,
+    "defaultHeight": 2.4
+  },
+  {
+    "kind": "headset-doyrnelt",
+    "label": "Headset",
+    "group": "Vocals",
+    "category": "Audio",
+    "color": "#0f766e",
+    "iconSrc": "/icons/tecrider/headset-DoYRNElT.png",
+    "defaultWidth": 1.2,
+    "defaultHeight": 2.6
+  },
+  {
+    "kind": "headphones-mic-bzwgmey2",
+    "label": "Headphones with Mic",
+    "group": "Vocals",
+    "category": "Audio",
+    "color": "#0f766e",
+    "iconSrc": "/icons/tecrider/headphones-mic-BzwgmEy2.png",
+    "defaultWidth": 1.2,
+    "defaultHeight": 2.6
+  },
+  {
+    "kind": "lavalier-cv4pn4cr",
+    "label": "Lavalier Mic",
+    "group": "Vocals",
+    "category": "Audio",
+    "color": "#0f766e",
+    "iconSrc": "/icons/tecrider/lavalier-Cv4pn4cr.png",
+    "defaultWidth": 1.2,
+    "defaultHeight": 2.6
+  },
+  {
+    "kind": "megaphone-csq581kj",
+    "label": "Megaphone",
+    "group": "Vocals",
+    "category": "Audio",
+    "color": "#0f766e",
+    "iconSrc": "/icons/tecrider/megaphone-Csq581Kj.png",
+    "defaultWidth": 1.4,
+    "defaultHeight": 2.8
+  },
+  {
+    "kind": "mic-cable-cqnet7sr",
+    "label": "Microphone with Cable",
+    "group": "Vocals",
+    "category": "Audio",
+    "color": "#0f766e",
+    "iconSrc": "/icons/tecrider/mic-cable-Cqnet7Sr.png",
+    "defaultWidth": 1.2,
+    "defaultHeight": 2.6
+  },
+  {
+    "kind": "mic-stand-c7pucn0w",
+    "label": "Mic Stand",
+    "group": "Vocals",
+    "category": "Audio",
+    "color": "#0f766e",
+    "iconSrc": "/icons/tecrider/mic-stand-C7Pucn0w.png",
+    "defaultWidth": 1.5,
+    "defaultHeight": 3.4
+  },
+  {
+    "kind": "mic-handheld-bvvmi9cx",
+    "label": "Handheld Mic",
+    "group": "Vocals",
+    "category": "Audio",
+    "color": "#0f766e",
+    "iconSrc": "/icons/tecrider/mic-handheld-BVvmI9CX.png",
+    "defaultWidth": 1.2,
+    "defaultHeight": 2.6
+  },
+  {
+    "kind": "microphone-1-drhnf5eo",
+    "label": "Microphone",
+    "group": "Vocals",
+    "category": "Audio",
+    "color": "#0f766e",
+    "iconSrc": "/icons/tecrider/microphone-1-DrHNf5eo.png",
+    "defaultWidth": 1.2,
+    "defaultHeight": 2.6
+  },
+  {
+    "kind": "microphone-2-nesm-0fs",
+    "label": "Stage Microphone",
+    "group": "Vocals",
+    "category": "Audio",
+    "color": "#0f766e",
+    "iconSrc": "/icons/tecrider/microphone-2-neSM-0Fs.png",
+    "defaultWidth": 1.2,
+    "defaultHeight": 2.6
+  },
+  {
+    "kind": "microphone-3-cwnqjc5z",
+    "label": "Wireless Mic",
+    "group": "Vocals",
+    "category": "Audio",
+    "color": "#0f766e",
+    "iconSrc": "/icons/tecrider/microphone-3-CwnQJC5Z.png",
+    "defaultWidth": 1.2,
+    "defaultHeight": 2.6
+  },
+  {
+    "kind": "microphone-4-di8in818",
+    "label": "Studio Mic",
+    "group": "Vocals",
+    "category": "Audio",
+    "color": "#0f766e",
+    "iconSrc": "/icons/tecrider/microphone-4-DI8In818.png",
+    "defaultWidth": 1.2,
+    "defaultHeight": 2.6
+  },
+  {
+    "kind": "microphone-5-do4iy3rz",
+    "label": "Classic Mic",
+    "group": "Vocals",
+    "category": "Audio",
+    "color": "#0f766e",
+    "iconSrc": "/icons/tecrider/microphone-5-Do4IY3RZ.png",
+    "defaultWidth": 1.2,
+    "defaultHeight": 2.6
+  },
+  {
+    "kind": "microphone-6-c-q7rwv7",
+    "label": "Broadcast Mic",
+    "group": "Vocals",
+    "category": "Audio",
+    "color": "#0f766e",
+    "iconSrc": "/icons/tecrider/microphone-6-C-Q7RwV7.png",
+    "defaultWidth": 1.2,
+    "defaultHeight": 2.6
+  },
+  {
+    "kind": "microphone-7-cprsvhe7",
+    "label": "Gooseneck Mic",
+    "group": "Vocals",
+    "category": "Audio",
+    "color": "#0f766e",
+    "iconSrc": "/icons/tecrider/microphone-7-CpRSvhe7.png",
+    "defaultWidth": 1.2,
+    "defaultHeight": 2.6
+  },
+  {
+    "kind": "microphone-8-b3iwxta2",
+    "label": "USB Microphone",
+    "group": "Vocals",
+    "category": "Audio",
+    "color": "#0f766e",
+    "iconSrc": "/icons/tecrider/microphone-8-B3iWXta2.png",
+    "defaultWidth": 1.2,
+    "defaultHeight": 2.6
+  },
+  {
+    "kind": "microphone-9-b9-6dn48",
+    "label": "Wireless System",
+    "group": "Vocals",
+    "category": "Audio",
+    "color": "#0f766e",
+    "iconSrc": "/icons/tecrider/microphone-9-B9_6dn48.png",
+    "defaultWidth": 1.4,
+    "defaultHeight": 2.8
+  },
+  {
+    "kind": "mic-stand-tripod-d-knst66",
+    "label": "Tripod Mic Stand",
+    "group": "Vocals",
+    "category": "Audio",
+    "color": "#0f766e",
+    "iconSrc": "/icons/tecrider/mic-stand-tripod-D-KNsT66.png",
+    "defaultWidth": 1.5,
+    "defaultHeight": 3.4
+  },
+  {
+    "kind": "wireless-microphone-bnwg5rw7",
+    "label": "Wireless Headset",
+    "group": "Vocals",
+    "category": "Audio",
+    "color": "#0f766e",
+    "iconSrc": "/icons/tecrider/wireless-microphone-BnWG5rw7.png",
+    "defaultWidth": 1.2,
+    "defaultHeight": 2.6
+  },
+  {
+    "kind": "dj-controller-d131wqhl",
+    "label": "DJ Controller",
+    "group": "PA & DJ",
+    "category": "Audio",
+    "color": "#334155",
+    "iconSrc": "/icons/tecrider/dj-controller-D131wQHL.png",
+    "defaultWidth": 2.4,
+    "defaultHeight": 2.6
+  },
+  {
+    "kind": "mixer-dark-u7tg62up",
+    "label": "Mixer Dark",
+    "group": "PA & DJ",
+    "category": "Audio",
+    "color": "#334155",
+    "iconSrc": "/icons/tecrider/mixer-dark-U7tG62uP.png",
+    "defaultWidth": 2.4,
+    "defaultHeight": 2.6
+  },
+  {
+    "kind": "mixer-light-cpx5ahyd",
+    "label": "Mixer Light",
+    "group": "PA & DJ",
+    "category": "Audio",
+    "color": "#334155",
+    "iconSrc": "/icons/tecrider/mixer-light-Cpx5AHYd.png",
+    "defaultWidth": 2.4,
+    "defaultHeight": 2.6
+  },
+  {
+    "kind": "dj-turntable-ctwxp6a7",
+    "label": "DJ Turntable",
+    "group": "PA & DJ",
+    "category": "Audio",
+    "color": "#334155",
+    "iconSrc": "/icons/tecrider/dj-turntable-CtWXp6a7.png",
+    "defaultWidth": 2.4,
+    "defaultHeight": 2.6
+  },
+  {
+    "kind": "vinyl-turntable-b5vdmarh",
+    "label": "Vinyl Turntable",
+    "group": "PA & DJ",
+    "category": "Audio",
+    "color": "#334155",
+    "iconSrc": "/icons/tecrider/vinyl-turntable-B5VdmaRh.png",
+    "defaultWidth": 2.4,
+    "defaultHeight": 2.6
+  },
+  {
+    "kind": "dj-control-1-c2idrz4a",
+    "label": "CDJ Player",
+    "group": "PA & DJ",
+    "category": "Audio",
+    "color": "#334155",
+    "iconSrc": "/icons/tecrider/dj-control-1-C2Idrz4a.png",
+    "defaultWidth": 2.4,
+    "defaultHeight": 2.6
+  },
+  {
+    "kind": "dj-control-2-do4zfxj4",
+    "label": "CDJ Player Color",
+    "group": "PA & DJ",
+    "category": "Audio",
+    "color": "#334155",
+    "iconSrc": "/icons/tecrider/dj-control-2-DO4ZfXj4.png",
+    "defaultWidth": 2.4,
+    "defaultHeight": 2.6
+  },
+  {
+    "kind": "dj-mixer-dczg1hur",
+    "label": "DJ Mixer",
+    "group": "PA & DJ",
+    "category": "Audio",
+    "color": "#334155",
+    "iconSrc": "/icons/tecrider/dj-mixer-Dczg1HuR.png",
+    "defaultWidth": 2.4,
+    "defaultHeight": 2.6
+  },
+  {
+    "kind": "dj-turntable-2-dup06z-w",
+    "label": "DJ Console",
+    "group": "PA & DJ",
+    "category": "Audio",
+    "color": "#334155",
+    "iconSrc": "/icons/tecrider/dj-turntable-2-DuP06Z_W.png",
+    "defaultWidth": 2.4,
+    "defaultHeight": 2.6
+  },
+  {
+    "kind": "turntable-2-dqxvhruq",
+    "label": "Turntable Deck",
+    "group": "PA & DJ",
+    "category": "Audio",
+    "color": "#334155",
+    "iconSrc": "/icons/tecrider/turntable-2-DQxvhRuQ.png",
+    "defaultWidth": 2.4,
+    "defaultHeight": 2.6
+  },
+  {
+    "kind": "turntable-3-dni5ae6k",
+    "label": "Vinyl Player",
+    "group": "PA & DJ",
+    "category": "Audio",
+    "color": "#334155",
+    "iconSrc": "/icons/tecrider/turntable-3-DNI5Ae6k.png",
+    "defaultWidth": 2.4,
+    "defaultHeight": 2.6
+  },
+  {
+    "kind": "turntable-4-dvsy278n",
+    "label": "Record Player",
+    "group": "PA & DJ",
+    "category": "Audio",
+    "color": "#334155",
+    "iconSrc": "/icons/tecrider/turntable-4-DvsY278n.png",
+    "defaultWidth": 2.4,
+    "defaultHeight": 2.6
+  },
+  {
+    "kind": "pa-speaker-blue-lujkycll",
+    "label": "PA Speaker",
+    "group": "PA & DJ",
+    "category": "Audio",
+    "color": "#334155",
+    "iconSrc": "/icons/tecrider/pa-speaker-blue-luJkycLl.png",
+    "defaultWidth": 2.4,
+    "defaultHeight": 2.6
+  },
+  {
+    "kind": "pa-system-clzaudvg",
+    "label": "PA System",
+    "group": "PA & DJ",
+    "category": "Audio",
+    "color": "#334155",
+    "iconSrc": "/icons/tecrider/pa-system-CLZauDVg.png",
+    "defaultWidth": 2.4,
+    "defaultHeight": 2.6
+  },
+  {
+    "kind": "monitor-speaker-iik7a3qf",
+    "label": "Monitor Speaker",
+    "group": "PA & DJ",
+    "category": "Audio",
+    "color": "#334155",
+    "iconSrc": "/icons/tecrider/monitor-speaker-IiK7a3QF.png",
+    "defaultWidth": 2.4,
+    "defaultHeight": 2.6
+  },
+  {
+    "kind": "subwoofer-dmbzqi2f",
+    "label": "Subwoofer",
+    "group": "PA & DJ",
+    "category": "Audio",
+    "color": "#334155",
+    "iconSrc": "/icons/tecrider/subwoofer-DmBzqi2F.png",
+    "defaultWidth": 2.4,
+    "defaultHeight": 2.6
+  },
+  {
+    "kind": "sound-system-1-yp2nxezv",
+    "label": "Line Array System",
+    "group": "PA & DJ",
+    "category": "Audio",
+    "color": "#334155",
+    "iconSrc": "/icons/tecrider/sound-system-1-yp2NxEzV.png",
+    "defaultWidth": 2.6,
+    "defaultHeight": 3.4
+  },
+  {
+    "kind": "sound-system-2-bsqt0iny",
+    "label": "Hanging PA System",
+    "group": "PA & DJ",
+    "category": "Audio",
+    "color": "#334155",
+    "iconSrc": "/icons/tecrider/sound-system-2-BSqt0iny.png",
+    "defaultWidth": 2.4,
+    "defaultHeight": 2.6
+  },
+  {
+    "kind": "speaker-stand-jd7wy5gt",
+    "label": "Speaker on Stand",
+    "group": "PA & DJ",
+    "category": "Audio",
+    "color": "#334155",
+    "iconSrc": "/icons/tecrider/speaker-stand-JD7wY5gt.png",
+    "defaultWidth": 2.4,
+    "defaultHeight": 2.6
+  },
+  {
+    "kind": "pa-speaker-1-difshwrq",
+    "label": "PA Cabinet",
+    "group": "PA & DJ",
+    "category": "Audio",
+    "color": "#334155",
+    "iconSrc": "/icons/tecrider/pa-speaker-1-DIFsHwRQ.png",
+    "defaultWidth": 2.6,
+    "defaultHeight": 3.4
+  },
+  {
+    "kind": "pa-speaker-2-dl1nfbbm",
+    "label": "Monitor Speaker Horizontal",
+    "group": "PA & DJ",
+    "category": "Audio",
+    "color": "#334155",
+    "iconSrc": "/icons/tecrider/pa-speaker-2-DL1NFbBm.png",
+    "defaultWidth": 2.4,
+    "defaultHeight": 2.6
+  },
+  {
+    "kind": "pa-speaker-3-nioplfq",
+    "label": "Monitor Speaker Round",
+    "group": "PA & DJ",
+    "category": "Audio",
+    "color": "#334155",
+    "iconSrc": "/icons/tecrider/pa-speaker-3--NIoPLFQ.png",
+    "defaultWidth": 2.4,
+    "defaultHeight": 2.6
+  },
+  {
+    "kind": "pa-line-array-1-doxwi1nb",
+    "label": "Line Array Stack",
+    "group": "PA & DJ",
+    "category": "Audio",
+    "color": "#334155",
+    "iconSrc": "/icons/tecrider/pa-line-array-1-DoXWi1Nb.png",
+    "defaultWidth": 2.6,
+    "defaultHeight": 3.4
+  },
+  {
+    "kind": "pa-monitor-stack-dohubnkj",
+    "label": "Monitor Stack",
+    "group": "PA & DJ",
+    "category": "Audio",
+    "color": "#334155",
+    "iconSrc": "/icons/tecrider/pa-monitor-stack-DohUbNkJ.png",
+    "defaultWidth": 2.6,
+    "defaultHeight": 3.4
+  },
+  {
+    "kind": "pa-array-1-dlyor4ct",
+    "label": "Speaker Array System",
+    "group": "PA & DJ",
+    "category": "Audio",
+    "color": "#334155",
+    "iconSrc": "/icons/tecrider/pa-array-1-DLyor4CT.png",
+    "defaultWidth": 2.4,
+    "defaultHeight": 2.6
+  },
+  {
+    "kind": "pa-array-2-bchhf6hv",
+    "label": "PA Array",
+    "group": "PA & DJ",
+    "category": "Audio",
+    "color": "#334155",
+    "iconSrc": "/icons/tecrider/pa-array-2-BcHhf6hV.png",
+    "defaultWidth": 2.4,
+    "defaultHeight": 2.6
+  },
+  {
+    "kind": "pa-truss-array-dnwvoo",
+    "label": "Truss-Mounted Array",
+    "group": "PA & DJ",
+    "category": "Audio",
+    "color": "#334155",
+    "iconSrc": "/icons/tecrider/pa-truss-array-DNwVoo__.png",
+    "defaultWidth": 6,
+    "defaultHeight": 3
+  },
+  {
+    "kind": "pa-speaker-stand-ba7feq5i",
+    "label": "PA Speaker on Stand",
+    "group": "PA & DJ",
+    "category": "Audio",
+    "color": "#334155",
+    "iconSrc": "/icons/tecrider/pa-speaker-stand-BA7Feq5I.png",
+    "defaultWidth": 2.4,
+    "defaultHeight": 2.6
+  },
+  {
+    "kind": "pa-speaker-portable-txsfrhdv",
+    "label": "Portable PA Speaker",
+    "group": "PA & DJ",
+    "category": "Audio",
+    "color": "#334155",
+    "iconSrc": "/icons/tecrider/pa-speaker-portable-txsfRhdV.png",
+    "defaultWidth": 2.4,
+    "defaultHeight": 2.6
+  },
+  {
+    "kind": "pa-truss-array-2-cdktwhlk",
+    "label": "Truss Array System",
+    "group": "PA & DJ",
+    "category": "Audio",
+    "color": "#334155",
+    "iconSrc": "/icons/tecrider/pa-truss-array-2-CdkTwHlK.png",
+    "defaultWidth": 6,
+    "defaultHeight": 3
+  },
+  {
+    "kind": "accordion-red-bwjnpb1x",
+    "label": "Accordion Red",
+    "group": "Brass & Orchestra",
+    "category": "Instruments",
+    "color": "#d97706",
+    "iconSrc": "/icons/tecrider/accordion-red-BWJNpB1x.png",
+    "defaultWidth": 2.2,
+    "defaultHeight": 3.6
+  },
+  {
+    "kind": "accordion-black-hqqdcnsb",
+    "label": "Accordion Black",
+    "group": "Brass & Orchestra",
+    "category": "Instruments",
+    "color": "#d97706",
+    "iconSrc": "/icons/tecrider/accordion-black-HqQdcnsb.png",
+    "defaultWidth": 2.2,
+    "defaultHeight": 3.6
+  },
+  {
+    "kind": "bagpipe-cxc9tlvw",
+    "label": "Bagpipe",
+    "group": "Brass & Orchestra",
+    "category": "Instruments",
+    "color": "#d97706",
+    "iconSrc": "/icons/tecrider/bagpipe-Cxc9tlVw.png",
+    "defaultWidth": 2.2,
+    "defaultHeight": 3.6
+  },
+  {
+    "kind": "chimes-line-ciimih5t",
+    "label": "Chimes",
+    "group": "Brass & Orchestra",
+    "category": "Instruments",
+    "color": "#d97706",
+    "iconSrc": "/icons/tecrider/chimes-line-CIimIH5t.png",
+    "defaultWidth": 2.2,
+    "defaultHeight": 3.6
+  },
+  {
+    "kind": "chimes-color-coznmp-y",
+    "label": "Chimes Color",
+    "group": "Brass & Orchestra",
+    "category": "Instruments",
+    "color": "#d97706",
+    "iconSrc": "/icons/tecrider/chimes-color-COzNMp_y.png",
+    "defaultWidth": 2.2,
+    "defaultHeight": 3.6
+  },
+  {
+    "kind": "contrabass-dym8fuk7",
+    "label": "Contrabass",
+    "group": "Brass & Orchestra",
+    "category": "Instruments",
+    "color": "#d97706",
+    "iconSrc": "/icons/tecrider/contrabass-DYM8FUK7.png",
+    "defaultWidth": 1.8,
+    "defaultHeight": 3.8
+  },
+  {
+    "kind": "harp-dlv7ejry",
+    "label": "Harp",
+    "group": "Brass & Orchestra",
+    "category": "Instruments",
+    "color": "#d97706",
+    "iconSrc": "/icons/tecrider/harp-Dlv7EjRy.png",
+    "defaultWidth": 2.2,
+    "defaultHeight": 3.6
+  },
+  {
+    "kind": "guzheng-c1ymm49h",
+    "label": "Guzheng",
+    "group": "Brass & Orchestra",
+    "category": "Instruments",
+    "color": "#d97706",
+    "iconSrc": "/icons/tecrider/guzheng-C1Ymm49h.png",
+    "defaultWidth": 2.2,
+    "defaultHeight": 3.6
+  },
+  {
+    "kind": "harmonica-oph2wmg8",
+    "label": "Harmonica",
+    "group": "Brass & Orchestra",
+    "category": "Instruments",
+    "color": "#d97706",
+    "iconSrc": "/icons/tecrider/harmonica-opH2wmG8.png",
+    "defaultWidth": 2.2,
+    "defaultHeight": 3.6
+  },
+  {
+    "kind": "kalimba-vsysow4l",
+    "label": "Kalimba",
+    "group": "Brass & Orchestra",
+    "category": "Instruments",
+    "color": "#d97706",
+    "iconSrc": "/icons/tecrider/kalimba-VsYsOW4l.png",
+    "defaultWidth": 2.2,
+    "defaultHeight": 3.6
+  },
+  {
+    "kind": "cello-ddj3s8si",
+    "label": "Cello",
+    "group": "Brass & Orchestra",
+    "category": "Instruments",
+    "color": "#d97706",
+    "iconSrc": "/icons/tecrider/cello-Ddj3S8SI.png",
+    "defaultWidth": 1.8,
+    "defaultHeight": 3.8
+  },
+  {
+    "kind": "flute-86-s-z68",
+    "label": "Flute",
+    "group": "Brass & Orchestra",
+    "category": "Instruments",
+    "color": "#d97706",
+    "iconSrc": "/icons/tecrider/flute-86-S_z68.png",
+    "defaultWidth": 2.2,
+    "defaultHeight": 3.6
+  },
+  {
+    "kind": "oboe-canimcw0",
+    "label": "Oboe",
+    "group": "Brass & Orchestra",
+    "category": "Instruments",
+    "color": "#d97706",
+    "iconSrc": "/icons/tecrider/oboe-CaNImcW0.png",
+    "defaultWidth": 2.2,
+    "defaultHeight": 3.6
+  },
+  {
+    "kind": "saxophone-bye5bf-f",
+    "label": "Saxophone",
+    "group": "Brass & Orchestra",
+    "category": "Instruments",
+    "color": "#d97706",
+    "iconSrc": "/icons/tecrider/saxophone-Bye5Bf_f.png",
+    "defaultWidth": 2.2,
+    "defaultHeight": 3.6
+  },
+  {
+    "kind": "trombone-ncoufhdk",
+    "label": "Trombone",
+    "group": "Brass & Orchestra",
+    "category": "Instruments",
+    "color": "#d97706",
+    "iconSrc": "/icons/tecrider/trombone-nCoUfHdk.png",
+    "defaultWidth": 2.2,
+    "defaultHeight": 3.6
+  },
+  {
+    "kind": "trumpet-cgqxav-v",
+    "label": "Trumpet",
+    "group": "Brass & Orchestra",
+    "category": "Instruments",
+    "color": "#d97706",
+    "iconSrc": "/icons/tecrider/trumpet-CGQxaV-V.png",
+    "defaultWidth": 2.2,
+    "defaultHeight": 3.6
+  },
+  {
+    "kind": "tuba-classic-dpxqjgbw",
+    "label": "Tuba Classic",
+    "group": "Brass & Orchestra",
+    "category": "Instruments",
+    "color": "#d97706",
+    "iconSrc": "/icons/tecrider/tuba-classic-DpxQjGbW.png",
+    "defaultWidth": 2.2,
+    "defaultHeight": 3.6
+  },
+  {
+    "kind": "tuba-ccnwgsrh",
+    "label": "Tuba",
+    "group": "Brass & Orchestra",
+    "category": "Instruments",
+    "color": "#d97706",
+    "iconSrc": "/icons/tecrider/tuba-CCnwgSrh.png",
+    "defaultWidth": 2.2,
+    "defaultHeight": 3.6
+  },
+  {
+    "kind": "violin-crkqde6j",
+    "label": "Violin",
+    "group": "Brass & Orchestra",
+    "category": "Instruments",
+    "color": "#d97706",
+    "iconSrc": "/icons/tecrider/violin-crkQDe6J.png",
+    "defaultWidth": 1.8,
+    "defaultHeight": 3.8
+  },
+  {
+    "kind": "construction-ctbfrthb",
+    "label": "Stage Scaffolding",
+    "group": "Stage Equipment",
+    "category": "Stage",
+    "color": "#64748b",
+    "iconSrc": "/icons/tecrider/construction-CTBfRTHb.png",
+    "defaultWidth": 6,
+    "defaultHeight": 3
+  },
+  {
+    "kind": "light-bulb-bmpa001q",
+    "label": "Light Bulb Panel",
+    "group": "Stage Equipment",
+    "category": "Stage",
+    "color": "#64748b",
+    "iconSrc": "/icons/tecrider/light-bulb-BMPA001q.png",
+    "defaultWidth": 2.4,
+    "defaultHeight": 2.4
+  },
+  {
+    "kind": "light-aq-9d63p",
+    "label": "Stage Light",
+    "group": "Stage Equipment",
+    "category": "Stage",
+    "color": "#64748b",
+    "iconSrc": "/icons/tecrider/light-AQ_9d63P.png",
+    "defaultWidth": 2.4,
+    "defaultHeight": 2.4
+  },
+  {
+    "kind": "lights-d0umntnd",
+    "label": "Moving Head Light",
+    "group": "Stage Equipment",
+    "category": "Stage",
+    "color": "#64748b",
+    "iconSrc": "/icons/tecrider/lights-D0UmntnD.png",
+    "defaultWidth": 2.4,
+    "defaultHeight": 2.4
+  },
+  {
+    "kind": "spotlight-1-cmwvk3jz",
+    "label": "Spotlight Purple",
+    "group": "Stage Equipment",
+    "category": "Stage",
+    "color": "#64748b",
+    "iconSrc": "/icons/tecrider/spotlight-1-CmWVK3Jz.png",
+    "defaultWidth": 2.4,
+    "defaultHeight": 2.4
+  },
+  {
+    "kind": "spotlight-2-izqhax3g",
+    "label": "LED Panel",
+    "group": "Stage Equipment",
+    "category": "Stage",
+    "color": "#64748b",
+    "iconSrc": "/icons/tecrider/spotlight-2-IzQHAx3G.png",
+    "defaultWidth": 2.4,
+    "defaultHeight": 2.4
+  },
+  {
+    "kind": "spotlight-3-bwpvpd4k",
+    "label": "Studio Light",
+    "group": "Stage Equipment",
+    "category": "Stage",
+    "color": "#64748b",
+    "iconSrc": "/icons/tecrider/spotlight-3-BwpvPd4k.png",
+    "defaultWidth": 2.4,
+    "defaultHeight": 2.4
+  },
+  {
+    "kind": "spotlight-4-dhknkmiw",
+    "label": "Cross Spotlight",
+    "group": "Stage Equipment",
+    "category": "Stage",
+    "color": "#64748b",
+    "iconSrc": "/icons/tecrider/spotlight-4-DHKNkmIW.png",
+    "defaultWidth": 2.4,
+    "defaultHeight": 2.4
+  },
+  {
+    "kind": "spotlight-5-btdz3jyr",
+    "label": "Par Light",
+    "group": "Stage Equipment",
+    "category": "Stage",
+    "color": "#64748b",
+    "iconSrc": "/icons/tecrider/spotlight-5-BTdz3jYr.png",
+    "defaultWidth": 2.4,
+    "defaultHeight": 2.4
+  },
+  {
+    "kind": "spotlight-buon00rh",
+    "label": "Spotlight",
+    "group": "Stage Equipment",
+    "category": "Stage",
+    "color": "#64748b",
+    "iconSrc": "/icons/tecrider/spotlight-BUon00rh.png",
+    "defaultWidth": 2.4,
+    "defaultHeight": 2.4
+  },
+  {
+    "kind": "stage-1-dpkpnc5q",
+    "label": "Stage Platform",
+    "group": "Stage Equipment",
+    "category": "Stage",
+    "color": "#64748b",
+    "iconSrc": "/icons/tecrider/stage-1-DpKpnC5q.png",
+    "defaultWidth": 6,
+    "defaultHeight": 3
+  },
+  {
+    "kind": "stage-bgfhiubk",
+    "label": "Stage Truss",
+    "group": "Stage Equipment",
+    "category": "Stage",
+    "color": "#64748b",
+    "iconSrc": "/icons/tecrider/stage-BGFhiuBk.png",
+    "defaultWidth": 6,
+    "defaultHeight": 3
+  },
+  {
+    "kind": "audio-jack-ox3tap3o",
+    "label": "Audio Jack",
+    "group": "Stage Equipment",
+    "category": "Stage",
+    "color": "#64748b",
+    "iconSrc": "/icons/tecrider/audio-jack-ox3TaP3o.png",
+    "defaultWidth": 2.4,
+    "defaultHeight": 2.4
+  },
+  {
+    "kind": "cable-aux-1-dzuvo-vc",
+    "label": "Aux Cable Color",
+    "group": "Stage Equipment",
+    "category": "Stage",
+    "color": "#64748b",
+    "iconSrc": "/icons/tecrider/cable-aux-1-DZuvo-Vc.png",
+    "defaultWidth": 2.4,
+    "defaultHeight": 2.4
+  },
+  {
+    "kind": "cable-aux-2-dns65kho",
+    "label": "Aux Cable Yellow",
+    "group": "Stage Equipment",
+    "category": "Stage",
+    "color": "#64748b",
+    "iconSrc": "/icons/tecrider/cable-aux-2-DnS65kho.png",
+    "defaultWidth": 2.4,
+    "defaultHeight": 2.4
+  },
+  {
+    "kind": "cable-aux-line-cd7dfizm",
+    "label": "Aux Cable",
+    "group": "Stage Equipment",
+    "category": "Stage",
+    "color": "#64748b",
+    "iconSrc": "/icons/tecrider/cable-aux-line-Cd7DFiZm.png",
+    "defaultWidth": 2.4,
+    "defaultHeight": 2.4
+  },
+  {
+    "kind": "cable-jack-coiled-c74ekic5",
+    "label": "Coiled Cable",
+    "group": "Stage Equipment",
+    "category": "Stage",
+    "color": "#64748b",
+    "iconSrc": "/icons/tecrider/cable-jack-coiled-C74ekiC5.png",
+    "defaultWidth": 2.4,
+    "defaultHeight": 2.4
+  },
+  {
+    "kind": "cable-jack-tucooggk",
+    "label": "Audio Cable",
+    "group": "Stage Equipment",
+    "category": "Stage",
+    "color": "#64748b",
+    "iconSrc": "/icons/tecrider/cable-jack-TUCOoGgk.png",
+    "defaultWidth": 2.4,
+    "defaultHeight": 2.4
+  }
+]

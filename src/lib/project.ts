@@ -114,10 +114,10 @@ export const getProjectChecks = (project: StageProject): ProjectCheck[] => {
   checks.push({
     id: "readyToSubmit",
     severity: project.readyToSubmit ? "ready" : "warning",
-    label: project.readyToSubmit ? "Band marked this packet complete" : "Confirm you are ready to submit",
+    label: project.readyToSubmit ? "Packet marked complete" : "Confirm the packet is finished",
     detail: project.readyToSubmit
-      ? "This plot is marked complete for the venue."
-      : "Check “Are you ready to submit?” when the plot, input list, and notes are finished.",
+      ? "This plot is marked ready to send."
+      : "Check “Is this packet finished?” when the plot, input list, and notes are done.",
   });
 
   return checks;

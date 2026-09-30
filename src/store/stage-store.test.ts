@@ -25,6 +25,7 @@ describe("stage editor store", () => {
     expect(drumItem.height).toBe(6);
     expect(drumItem.providedBy).toBe("band");
     expect(drumItem.channelLabel).toBe("");
+    expect(drumItem.iconSrc).toBe("");
 
     useStageStore.getState().updateItem(drumItem.id, { label: "House drum kit" });
     expect(useStageStore.getState().project.items[0].label).toBe("House drum kit");
@@ -45,6 +46,15 @@ describe("stage editor store", () => {
 
     useStageStore.getState().redo();
     expect(useStageStore.getState().project.items).toHaveLength(1);
+  });
+
+  it("places Tecrider icons with their raster art", () => {
+    useStageStore.getState().addItem("guitar-2-bcbtiyqx", { x: 20, y: 20 });
+    const item = useStageStore.getState().project.items[0];
+
+    expect(item.label).toBe("Electric Guitar Red");
+    expect(item.iconSrc).toBe("/icons/tecrider/guitar-2-BCbTiYQx.png");
+    expect(item.width).toBe(1.8);
   });
 
   it("keeps resized and moved objects inside the stage", () => {

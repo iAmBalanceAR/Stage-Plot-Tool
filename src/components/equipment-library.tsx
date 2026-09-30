@@ -2,29 +2,62 @@
 
 import { useMemo, useState } from "react";
 import { LayoutTemplate, Search, Sparkles } from "lucide-react";
-import { equipmentCategories, equipmentLibrary } from "@/data/equipment";
+import { equipmentGroups, equipmentLibrary } from "@/data/equipment";
 import { cloneTemplateProject, projectTemplates } from "@/data/templates";
 import { ItemIcon } from "@/components/item-icon";
 import { useStageStore } from "@/store/stage-store";
+import type { EquipmentDefinition } from "@/types/stage";
+
+const LibraryTile = ({ item }: { item: EquipmentDefinition }) => {
+  const addItem = useStageStore((state) => state.addItem);
+
+  return (
+    <button
+      type="button"
+      draggable
+      className="group flex min-h-[5.5rem] flex-col items-center justify-center rounded-xl border border-[var(--border)] bg-[var(--background)] p-2 text-center transition hover:-translate-y-0.5 hover:border-[var(--accent)] hover:shadow-lg"
+      onClick={() => addItem(item.kind)}
+      onDragStart={(event) => {
+        event.dataTransfer.setData("application/stagecraft-item", item.kind);
+        event.dataTransfer.effectAllowed = "copy";
+      }}
+      aria-label={`Add ${item.label} to stage`}
+    >
+      <span className="mb-1.5 flex h-12 w-full items-center justify-center rounded-lg bg-[var(--stage)] px-1">
+        <ItemIcon kind={item.kind} iconSrc={item.iconSrc} className="h-10 w-10" />
+      </span>
+      <span className="text-[11px] font-bold leading-tight">{item.label}</span>
+    </button>
+  );
+};
 
 export const EquipmentLibrary = () => {
   const [searchQuery, setSearchQuery] = useState("");
-  const [activeCategory, setActiveCategory] = useState<string>("All");
+  const [activeGroup, setActiveGroup] = useState<string>("All");
   const [isTemplatesOpen, setIsTemplatesOpen] = useState(false);
-  const addItem = useStageStore((state) => state.addItem);
   const setProject = useStageStore((state) => state.setProject);
 
   const filteredItems = useMemo(() => {
     const normalizedQuery = searchQuery.trim().toLowerCase();
     return equipmentLibrary.filter((item) => {
-      const matchesCategory = activeCategory === "All" || item.category === activeCategory;
+      const matchesGroup = activeGroup === "All" || item.group === activeGroup;
       const matchesSearch =
         !normalizedQuery ||
         item.label.toLowerCase().includes(normalizedQuery) ||
+        item.group.toLowerCase().includes(normalizedQuery) ||
         item.category.toLowerCase().includes(normalizedQuery);
-      return matchesCategory && matchesSearch;
+      return matchesGroup && matchesSearch;
     });
-  }, [activeCategory, searchQuery]);
+  }, [activeGroup, searchQuery]);
+
+  const groupedItems = useMemo(() => {
+    return equipmentGroups
+      .map((group) => ({
+        group,
+        items: filteredItems.filter((item) => item.group === group),
+      }))
+      .filter((entry) => entry.items.length);
+  }, [filteredItems]);
 
   return (
     <aside className="panel-scroll flex h-full min-h-0 w-full flex-col overflow-hidden border-r border-[var(--border)] bg-[var(--panel)] lg:w-[260px] lg:shrink-0">
@@ -82,18 +115,18 @@ export const EquipmentLibrary = () => {
       </div>
 
       <div className="flex gap-1 overflow-x-auto border-b border-[var(--border)] px-3 py-2">
-        {["All", ...equipmentCategories].map((category) => (
+        {["All", ...equipmentGroups].map((group) => (
           <button
-            key={category}
+            key={group}
             type="button"
             className={`shrink-0 rounded-full px-2.5 py-1 text-[10px] font-bold transition ${
-              activeCategory === category
+              activeGroup === group
                 ? "bg-[var(--foreground)] text-[var(--background)]"
                 : "text-[var(--muted)] hover:bg-[var(--panel-strong)] hover:text-[var(--foreground)]"
             }`}
-            onClick={() => setActiveCategory(category)}
+            onClick={() => setActiveGroup(group)}
           >
-            {category}
+            {group}
           </button>
         ))}
       </div>
@@ -102,27 +135,29 @@ export const EquipmentLibrary = () => {
         <p className="mb-2 px-1 text-[10px] font-black uppercase tracking-[0.2em] text-[var(--muted)]">
           Click or drag to stage
         </p>
-        <div className="grid grid-cols-2 gap-2">
-          {filteredItems.map((item) => (
-            <button
-              key={item.kind}
-              type="button"
-              draggable
-              className="group flex min-h-[5.5rem] flex-col items-center justify-center rounded-xl border border-[var(--border)] bg-[var(--background)] p-2 text-center transition hover:-translate-y-0.5 hover:border-[var(--accent)] hover:shadow-lg"
-              onClick={() => addItem(item.kind)}
-              onDragStart={(event) => {
-                event.dataTransfer.setData("application/stagecraft-item", item.kind);
-                event.dataTransfer.effectAllowed = "copy";
-              }}
-              aria-label={`Add ${item.label} to stage`}
-            >
-              <span className="mb-1.5 flex h-12 w-full items-center justify-center rounded-lg bg-slate-100 px-1">
-                <ItemIcon kind={item.kind} className="h-10 w-10" />
-              </span>
-              <span className="text-[11px] font-bold leading-tight">{item.label}</span>
-            </button>
-          ))}
-        </div>
+
+        {activeGroup === "All" ? (
+          <div className="grid gap-4">
+            {groupedItems.map((entry) => (
+              <section key={entry.group} aria-label={entry.group}>
+                <h3 className="mb-2 px-1 text-[10px] font-black uppercase tracking-[0.16em] text-[var(--muted)]">
+                  {entry.group}
+                </h3>
+                <div className="grid grid-cols-2 gap-2">
+                  {entry.items.map((item) => (
+                    <LibraryTile key={item.kind} item={item} />
+                  ))}
+                </div>
+              </section>
+            ))}
+          </div>
+        ) : (
+          <div className="grid grid-cols-2 gap-2">
+            {filteredItems.map((item) => (
+              <LibraryTile key={item.kind} item={item} />
+            ))}
+          </div>
+        )}
 
         {!filteredItems.length && (
           <p className="px-3 py-10 text-center text-xs text-[var(--muted)]">

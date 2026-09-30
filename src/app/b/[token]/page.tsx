@@ -1,9 +1,5 @@
-"use client";
+import { redirect } from "next/navigation";
 
-import { useParams } from "next/navigation";
-import { StageCraftApp } from "@/components/stagecraft-app";
-
-export default function BandLinkPage() {
-  const params = useParams<{ token: string }>();
-  return <StageCraftApp bandToken={params.token} />;
+export default function ArchivedBandLinkPage() {
+  redirect("/");
 }

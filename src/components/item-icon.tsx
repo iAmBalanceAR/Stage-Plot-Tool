@@ -1,8 +1,10 @@
 import type { ReactNode } from "react";
+import { getEquipmentDefinition } from "@/data/equipment";
 import type { EquipmentKind } from "@/types/stage";
 
 interface EquipmentArtProps {
   kind: EquipmentKind;
+  iconSrc?: string;
   className?: string;
 }
 
@@ -26,7 +28,7 @@ const SvgFrame = ({
   </svg>
 );
 
-const art: Record<EquipmentKind, ReactNode> = {
+const art: Record<string, ReactNode> = {
   vocalist: (
     <SvgFrame viewBox="0 0 90 120">
       <ellipse cx="45" cy="112" rx="18" ry="5" fill="#000" opacity="0.12" />
@@ -248,13 +250,29 @@ const art: Record<EquipmentKind, ReactNode> = {
   ),
 };
 
-export const EquipmentArt = ({ kind, className = "h-full w-full" }: EquipmentArtProps) =>
-  art[kind] ? (
+export const EquipmentArt = ({ kind, className = "h-full w-full" }: EquipmentArtProps) => {
+  const drawing = art[kind] ?? art.other;
+  return (
     <span className={`inline-grid place-items-center [&>svg]:h-full [&>svg]:w-full ${className}`}>
-      {art[kind]}
+      {drawing}
     </span>
-  ) : null;
+  );
+};
 
-export const ItemIcon = ({ kind, className }: EquipmentArtProps) => (
-  <EquipmentArt kind={kind} className={className} />
-);
+export const ItemIcon = ({ kind, iconSrc, className = "h-full w-full" }: EquipmentArtProps) => {
+  const source = iconSrc || getEquipmentDefinition(kind).iconSrc;
+  if (source) {
+    return (
+      // Raster icons are local public assets; a plain img keeps PDF/PNG export reliable.
+      // eslint-disable-next-line @next/next/no-img-element
+      <img
+        src={source}
+        alt=""
+        draggable={false}
+        className={`equipment-raster ${className}`}
+      />
+    );
+  }
+
+  return <EquipmentArt kind={kind} className={className} />;
+};

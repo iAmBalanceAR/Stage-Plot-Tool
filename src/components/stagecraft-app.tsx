@@ -21,14 +21,13 @@ import {
   ZoomOut,
 } from "lucide-react";
 import { toast } from "sonner";
-import { BandLinkStatus, LoginGate } from "@/components/login-gate";
 import { WorkspaceMenus } from "@/components/workspace-menus";
 import { EquipmentLibrary } from "@/components/equipment-library";
 import { ProjectPanel } from "@/components/project-panel";
 import { StageCanvas } from "@/components/stage-canvas";
 import { createBlankProject } from "@/data/templates";
-import { GUEST_USER_ID } from "@/types/account";
 import { exportStageAsPng, exportTechnicalPacket } from "@/lib/export";
+import { upsertLibraryPlot } from "@/lib/plot-library";
 import {
   downloadInputListCsv,
   downloadProjectFile,
@@ -37,13 +36,8 @@ import {
   saveStoredProject,
 } from "@/lib/project";
 import { useStageStore } from "@/store/stage-store";
-import { useWorkspaceStore } from "@/store/workspace-store";
 
 type MobileView = "library" | "stage" | "details";
-
-interface StageCraftAppProps {
-  bandToken?: string;
-}
 
 const Logo = () => (
   <div className="flex items-center gap-2.5">
@@ -61,25 +55,18 @@ const Logo = () => (
   </div>
 );
 
-export const StageCraftApp = ({ bandToken }: StageCraftAppProps = {}) => {
+export const StageCraftApp = () => {
   const [zoom, setZoom] = useState(88);
   const [mobileView, setMobileView] = useState<MobileView>("stage");
   const [isExportOpen, setIsExportOpen] = useState(false);
   const [isHelpOpen, setIsHelpOpen] = useState(false);
   const [isDark, setIsDark] = useState(false);
-  const [bandLinkError, setBandLinkError] = useState<string | null>(null);
-  const [isBandLinkPending, setIsBandLinkPending] = useState(Boolean(bandToken));
   const fileInputRef = useRef<HTMLInputElement>(null);
   const project = useStageStore((state) => state.project);
   const isHydrated = useStageStore((state) => state.isHydrated);
   const past = useStageStore((state) => state.past);
   const future = useStageStore((state) => state.future);
   const hydrate = useStageStore((state) => state.hydrate);
-  const hydrateWorkspace = useWorkspaceStore((state) => state.hydrateWorkspace);
-  const saveCurrentPlot = useWorkspaceStore((state) => state.saveCurrentPlot);
-  const signInBand = useWorkspaceStore((state) => state.signInBand);
-  const profile = useWorkspaceStore((state) => state.profile);
-  const workspaceReady = useWorkspaceStore((state) => state.isReady);
   const setProject = useStageStore((state) => state.setProject);
   const updateProject = useStageStore((state) => state.updateProject);
   const undo = useStageStore((state) => state.undo);
@@ -88,43 +75,22 @@ export const StageCraftApp = ({ bandToken }: StageCraftAppProps = {}) => {
 
   useEffect(() => {
     hydrate();
-    hydrateWorkspace();
     const storedTheme = window.localStorage.getItem("stagecraft-theme");
     const shouldUseDark =
       storedTheme === "dark" ||
       (!storedTheme && window.matchMedia("(prefers-color-scheme: dark)").matches);
     setIsDark(shouldUseDark);
     document.documentElement.dataset.theme = shouldUseDark ? "dark" : "light";
-    if (!bandToken && !window.localStorage.getItem("stagecraft-help-dismissed")) {
+    if (!window.localStorage.getItem("stagecraft-help-dismissed")) {
       setIsHelpOpen(true);
     }
-  }, [bandToken, hydrate, hydrateWorkspace]);
+  }, [hydrate]);
 
   useEffect(() => {
-    if (!bandToken || !workspaceReady) return;
-
-    void (async () => {
-      try {
-        const band = await signInBand(bandToken);
-        useStageStore.getState().updateProject((current) => ({
-          ...current,
-          actName: current.actName || band.displayName,
-          eventDate: current.eventDate || band.showDate || current.eventDate,
-        }));
-        setBandLinkError(null);
-      } catch (error) {
-        setBandLinkError(error instanceof Error ? error.message : "This band link is not valid.");
-      } finally {
-        setIsBandLinkPending(false);
-      }
-    })();
-  }, [bandToken, workspaceReady, signInBand]);
-
-  useEffect(() => {
-    if (!isHydrated || !workspaceReady || profile.id === GUEST_USER_ID) return;
+    if (!isHydrated) return;
     saveStoredProject(project);
-    saveCurrentPlot(project);
-  }, [isHydrated, workspaceReady, profile.id, project, saveCurrentPlot]);
+    upsertLibraryPlot(project);
+  }, [isHydrated, project]);
 
   useEffect(() => {
     const handleKeyDown = (event: KeyboardEvent) => {
@@ -226,7 +192,7 @@ export const StageCraftApp = ({ bandToken }: StageCraftAppProps = {}) => {
     }
   };
 
-  if (!isHydrated || !workspaceReady || isBandLinkPending) {
+  if (!isHydrated) {
     return (
       <main className="grid min-h-screen place-items-center bg-[var(--background)]">
         <div className="text-center">
@@ -235,14 +201,6 @@ export const StageCraftApp = ({ bandToken }: StageCraftAppProps = {}) => {
         </div>
       </main>
     );
-  }
-
-  if (bandLinkError) {
-    return <BandLinkStatus title="Link unavailable" message={bandLinkError} />;
-  }
-
-  if (profile.id === GUEST_USER_ID) {
-    return <LoginGate />;
   }
 
   return (
@@ -559,7 +517,7 @@ export const StageCraftApp = ({ bandToken }: StageCraftAppProps = {}) => {
               </li>
               <li>
                 <strong className="text-[var(--foreground)]">4. Export and send.</strong> Download the
-                PDF packet, then send a frozen snapshot to the venue inbox.
+                PDF packet, PNG, or editable project file.
               </li>
             </ol>
             <button type="button" className="button-primary mt-5 w-full" onClick={handleDismissHelp}>

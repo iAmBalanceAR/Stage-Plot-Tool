@@ -111,14 +111,6 @@ export const getProjectChecks = (project: StageProject): ProjectCheck[] => {
       ? project.notes.power
       : "State quantity, location, voltage, and circuit expectations where relevant.",
   });
-  checks.push({
-    id: "readyToSubmit",
-    severity: project.readyToSubmit ? "ready" : "warning",
-    label: project.readyToSubmit ? "Packet marked complete" : "Confirm the packet is finished",
-    detail: project.readyToSubmit
-      ? "This plot is marked ready to send."
-      : "Check “Is this packet finished?” when the plot, input list, and notes are done.",
-  });
 
   return checks;
 };

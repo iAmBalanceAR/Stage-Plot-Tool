@@ -25,7 +25,7 @@ Use the tabs on the right (or **Details** on a phone):
 - **Inputs** — one row per channel: source, mic or DI, stand, 48V, who plays it, where it goes
 - **Mixes** — wedges and IEMs
 - **Notes** — power, wireless, anything that would otherwise turn into a 2 a.m. text
-- **Check** — a punch list, including **Is this packet finished?**
+- **Check** — a punch list for missing plot, patch, mix, and power details
 
 The plot and the input list should agree. If the kick is channel 1 on the list, put `1` on the kick on the plot.
 

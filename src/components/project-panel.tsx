@@ -702,16 +702,8 @@ const ProductionNotes = () => {
 
 const ReadinessCheck = () => {
   const project = useStageStore((state) => state.project);
-  const updateProject = useStageStore((state) => state.updateProject);
   const checks = getProjectChecks(project);
   const score = getReadinessScore(project);
-
-  const handleReadyToSubmit = () => {
-    updateProject((current) => ({
-      ...current,
-      readyToSubmit: !current.readyToSubmit,
-    }));
-  };
 
   return (
     <div className="p-4">
@@ -734,22 +726,6 @@ const ReadinessCheck = () => {
           />
         </div>
       </div>
-
-      <label className="mb-4 flex cursor-pointer items-start gap-3 rounded-2xl border border-[var(--border)] bg-[var(--background)] p-4">
-        <input
-          type="checkbox"
-          className="mt-1 h-4 w-4 accent-[var(--accent)]"
-          checked={project.readyToSubmit}
-          onChange={handleReadyToSubmit}
-          aria-label="Is this packet finished"
-        />
-        <span>
-          <span className="block text-sm font-black">Is this packet finished?</span>
-          <span className="mt-1 block text-[11px] leading-relaxed text-[var(--muted)]">
-            Check this when the plot, input list, mixes, and notes are ready to send.
-          </span>
-        </span>
-      </label>
 
       <div className="space-y-2">
         {checks.map((check) => (
